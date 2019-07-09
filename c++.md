@@ -141,8 +141,8 @@ for (auto item : array){
 [R]TODO
 ## map
 > Asszociatív indexelésű tömb  
-> Elem deklarálás: `m[0]=m[0]`  
-> Iterátor `pair<,>` ad vissza  
+> Elem deklarálás: `m["foo"]=m["foo"]`  
+> Iterátor `pair<,>`-t ad vissza  
 
 | Property | Time |
 | --- | --- |

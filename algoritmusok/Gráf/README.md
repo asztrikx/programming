@@ -18,6 +18,7 @@
 
 # Élek mélységi bejárás ideje szerint  
 u->v
+
 | Név | Kezdés | Befejezés |
 | --- | --- | --- |
 | Visszaél | u>v | u<v |

@@ -24,6 +24,7 @@
 - komal.hu/forum
 - codeforces.com
 - youtube.com
+	- [R] Channels
 - geeksforgeeks.org
 
 # Feladatbankok
