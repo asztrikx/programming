@@ -1,6 +1,6 @@
 # Adatlap
 ## Használat
-1. > Legrövidebb utak `Start`-ból az összes csúcsba, egység hosszúságú éleknél
+1. > Legrövidebb utak `start`-ból az összes csúcsba, egység hosszúságú éleknél
 2. > Szélességi feszítőfa
 3. > Kör keresése irányítatlan gráfban
 ## Big O notation

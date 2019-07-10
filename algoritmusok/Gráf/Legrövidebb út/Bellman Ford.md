@@ -3,7 +3,7 @@
 1. > Legrövidebb utak `Start`-ból az összes csúcsba, ha nincs negatív kör
 2. > Negatív kör meghatározása
 ## Big O notation
-> O(N*(N+M))
+> O(N^2+MN)
 ## Memória
 > N
 # Példakód
