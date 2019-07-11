@@ -1,16 +1,22 @@
 # Editor
 ## Codeblocks
-# Pointers
+# Pointer
+> Változó memóriacímét tartalmazó változó
 ```c++
-void foo(string* _bar){ 
-	string& bar = *_bar;
-	cout << bar.property;
-}
+point *p=&a, *q=&b;
+p=&b; q=&a;
+```
+# Reference
+> const pointer
+```c++
+point &p=a, &q=b;
 ```
 ```c++
-void foo(string* bar){
-	cout << bar->property
+void foo(const point &bar){
+	cout << bar.x;
 }
+point a;
+foo(a);
 ```
 # Adattípusok
 - Terjedelem
@@ -48,9 +54,37 @@ int main()
 }
 ```
 # IO
+Alap
 ```c++
+cin.sync_with_stdio(false);
+cin.tie(nullptr);
 cin >> var1 >> var2;
 cout << var2 << " " << var1 << '\n';
+```
+Leggyorsabb, nem feltétlen kell, de sokat ad
+```c++
+#define READ c = getchar_unlocked()
+int read(){
+    char READ;
+    while(c<=' '){
+		READ;
+	}
+    bool sign=false;
+    if (c=='-'){
+		sign=true;
+		READ;
+	}
+    int r=0;
+    do{
+		r = (r<<3)+(r<<1)+c-'0';
+        READ;
+    }while(c>' ');
+    if(sign){
+		return -r;
+	}
+    return r;
+}
+#undef READ
 ```
 # Struktúrák
 ```c++
@@ -138,7 +172,18 @@ for (auto item : array){
 > Struktúrák `operator<` szerint rendeződnek  
 > Kivétel `heap` miatt fordított sorrendben lesz  
 ## deque
-[R]TODO
+> `double ended queue`: `vector` kiegészítve `push_front` és `pop_front` függvényekkel
+
+| Property | Time |
+| --- | --- |
+| empty | 1 |
+| size | 1 |
+| front | 1 |
+| back | 1 |
+| push_back | 1 |
+| push_front | 1 |
+| pop_back | 1 |
+| pop_front | 1 |
 ## map
 > Asszociatív indexelésű tömb  
 > Elem deklarálás: `m["foo"]=m["foo"]`  

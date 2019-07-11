@@ -21,6 +21,12 @@ codeblocks-17.12mingw-setup.exe
 - Editor
 	- General settings > Editor settings > TAB options
 		- Use TAB character: `true`
-	- Code completion
+	- Code completion //Ha nem megy az autocomplete
 		- Disable SmartSense: `true`
+# Debug
+- Debugging windows > Watches
 ## No UTF-8
+## Uninstall
+- Windows  
+	- `uninstaller`  
+	- `%appdata%`

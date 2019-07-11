@@ -51,6 +51,7 @@
 - ipsc.ksp.sk
 - wcipeg.com
 - spoj.com
+- uva.onlinejudge.org
 
 # Szakkörök
 - Fazekas szakkör
