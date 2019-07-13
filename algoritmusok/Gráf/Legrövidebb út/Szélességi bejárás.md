@@ -11,7 +11,7 @@
 Bement
 ```c++
 int n, start;
-vector<vector<int>> graph(n, vector<int>(n));
+vector<vector<int>> graph(n);
 ```
 ## 1.
 ```c++
@@ -36,7 +36,7 @@ while(!q.empty()){
 ```
 ## 2.
 ```c++
-vector<vector<int> st(n, vector<int>(n));
+vector<vector<int> st(n);
 vector<bool> doneS(n);
 queue<int> q;
 doneS[start]=true;

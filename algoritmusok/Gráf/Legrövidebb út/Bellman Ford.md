@@ -10,7 +10,7 @@
 Bement
 ```c++
 int n, start;
-vector<vector<edge>> graph(n, vector<int>(n));
+vector<vector<edge>> graph(n);
 ```
 ## 1. (`Egyszerű gráf`, `irányítatlan`)
 ```c++
