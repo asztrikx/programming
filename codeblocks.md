@@ -1,7 +1,6 @@
-# Codeblocks
-## Download
+# Download
 codeblocks-17.12mingw-setup.exe
-## Settings
+# Settings
 - Compiler
 	- Selected compiler: `GNU GCC Compiler`
 	- Compiler settings > Compiler flags
@@ -25,8 +24,21 @@ codeblocks-17.12mingw-setup.exe
 		- Disable SmartSense: `true`
 # Debug
 - Debugging windows > Watches
-## No UTF-8
-## Uninstall
+# Shortcuts
+http://wiki.codeblocks.org/index.php?title=Keyboard_Shortcuts
+
+| Action		| Key |
+| ---			| --- |
+| Build			| Ctrl+F9 |
+| Compile		| Ctrl+Shift+F9 |
+| Run			| F9 |
+| Debug			| F8 |
+| Step over		| F7 |
+| Step into		| Shift+F7 |
+| Step out		| Ctrl+Shift+F7 |
+| Run to cursor	| F4 |
+# No UTF-8
+# Uninstall
 - Windows  
 	- `uninstaller`  
 	- `%appdata%`

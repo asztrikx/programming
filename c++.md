@@ -61,30 +61,31 @@ cin.tie(nullptr);
 cin >> var1 >> var2;
 cout << var2 << " " << var1 << '\n';
 ```
-Leggyorsabb, nem feltétlen kell, de sokat ad
+Leggyorsabb, nem feltétlen kell, de sokat gyorsít
 ```c++
-#define READ c = getchar_unlocked()
+#define READ c = getchar_unlocked();
 int read(){
-    char READ;
-    while(c<=' '){
+	char READ;
+	while(c<=' '){
 		READ;
 	}
-    bool sign=false;
-    if (c=='-'){
-		sign=true;
+	bool negative=false;
+	if(c=='-'){
+		negative=true;
 		READ;
 	}
-    int r=0;
-    do{
-		r = (r<<3)+(r<<1)+c-'0';
-        READ;
-    }while(c>' ');
-    if(sign){
-		return -r;
+	int number;
+	do{
+		number=(number<<3)+(number<<1)+c-'0';
+		READ;
+	}while(c>' ')
+	if(negative){
+		return -number;
 	}
-    return r;
+	return number;
 }
 #undef READ
+int var1=read();
 ```
 # Struktúrák
 ```c++
@@ -169,8 +170,16 @@ for (auto item : array){
 | pop | 1 |
 ## priority_queue
 > Prioritás szerint rendezett elemek  
-> Struktúrák `operator<` szerint rendeződnek  
-> Kivétel `heap` miatt fordított sorrendben lesz  
+> Struktúrák `<` szerint rendeződnek  
+> Kivétel `heap` miatt fordított sorrendben lesz
+```c++
+struct point{
+	long long x,y;
+	bool operator<(point other) const{
+		return x>other.x;
+	}
+};
+```
 ## deque
 > `double ended queue`: `vector` kiegészítve `push_front` és `pop_front` függvényekkel
 
