@@ -10,3 +10,7 @@
 ## Korábbi megoldása
 - Megoldási idő figyelése
 - Előtte pár nappal
+# 2. Forduló
+Ritka esetek
+- Feladat fordítva megoldva néha gyorsabb
+- Néha sorrendbe kell kiírni mégha nincs is leírva

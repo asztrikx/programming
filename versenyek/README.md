@@ -33,6 +33,7 @@
 - komal.hu/forum
 - codeforces.com
 - youtube.com
+	- https://www.youtube.com/user/purpongie/videos
 	- [R] Channels
 - geeksforgeeks.org
 - info.berzsenyi.hu/szakkoeroek/algoritmus-szakkoer

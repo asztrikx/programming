@@ -19,12 +19,12 @@
 # Élek mélységi bejárás ideje szerint  
 u->v
 
-| Név | Kezdés | Befejezés |
-| --- | --- | --- |
-| Visszaél | u>v | u<v |
-| Előreél | u<v | u>v |
-| Keresztél | u>v | u>v |
-| Faél | u<v | u>v |
+| Név       | Kezdés | Befejezés |
+|-----------|--------|-----------|
+| Visszaél  | u>v    | u<v       |
+| Előreél   | u<v    | u>v       |
+| Keresztél | u>v    | u>v       |
+| Faél      | u<v    | u>v       |
 # Típusok
 ## Sűrű/Dense
 ## Ritka/Sparse

@@ -27,16 +27,16 @@ codeblocks-17.12mingw-setup.exe
 # Shortcuts
 http://wiki.codeblocks.org/index.php?title=Keyboard_Shortcuts
 
-| Action		| Key |
-| ---			| --- |
-| Build			| Ctrl+F9 |
-| Compile		| Ctrl+Shift+F9 |
-| Run			| F9 |
-| Debug			| F8 |
-| Step over		| F7 |
-| Step into		| Shift+F7 |
-| Step out		| Ctrl+Shift+F7 |
-| Run to cursor	| F4 |
+| Action        | Key           |
+|---------------|---------------|
+| Build         | Ctrl+F9       |
+| Compile       | Ctrl+Shift+F9 |
+| Run           | F9            |
+| Debug         | F8            |
+| Step over     | F7            |
+| Step into     | Shift+F7      |
+| Step out      | Ctrl+Shift+F7 |
+| Run to cursor | F4            |
 # No UTF-8
 # Uninstall
 - Windows  

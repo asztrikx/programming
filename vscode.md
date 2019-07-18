@@ -1,5 +1,5 @@
 # Shortcuts
-| Action		    | Key |
-| ---			    | --- |
+| Action            | Key          |
+|-------------------|--------------|
 | Find in all files | Ctrl+Shift+F |
-| Build             | F5 |
+| Build             | F5           |
