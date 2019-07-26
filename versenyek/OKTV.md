@@ -14,3 +14,20 @@
 Ritka esetek
 - Feladat fordítva megoldva néha gyorsabb
 - Néha sorrendbe kell kiírni mégha nincs is leírva
+# Helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2002_2003helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2003_2004helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2004_2005helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2005_2006helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2006_2007helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2007_2008helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2008_2009helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2009_2010helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2010_2011helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2011_2012helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2012_2013helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2013_2014helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2014_2015_helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/2015_2016_helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/2016_2017_helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/2017_2018_helyezettek

@@ -23,7 +23,9 @@ codeblocks-17.12mingw-setup.exe
 	- Code completion //Ha nem megy az autocomplete
 		- Disable SmartSense: `true`
 # Debug
-- Debugging windows > Watches
+- Debugging windows
+	Watches: `true`
+	Call stack: `true`
 # Shortcuts
 http://wiki.codeblocks.org/index.php?title=Keyboard_Shortcuts
 

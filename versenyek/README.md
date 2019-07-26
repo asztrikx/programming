@@ -21,6 +21,7 @@
 
 > [Google Calendar, sajátunkhoz adjuk hozzá](https://calendar.google.com/calendar/embed?title=Tanulm%C3%A1nyi+versenyek&wkst=2&bgcolor=%23FFFFFF&src=ss881teo41uk82ir2g5p4bk6l0@group.calendar.google.com&color=%23182C57&src=rsd5iorkti3b2fuclehukn95s0@group.calendar.google.com&color=%23B1440E&src=omhgl1n9epdsefcu087cqouie0@group.calendar.google.com&color=%2342104A&src=hu.hungarian%23holiday@group.v.calendar.google.com&color=%23125A12&ctz=Europe/Budapest&hl=hu)
 # Források
+- tamop412.elte.hu/tananyagok/algoritmusok
 - cplusplus.org
 - ntibi.web.elte.hu
 - nemes.inf.elte.hu
@@ -34,6 +35,8 @@
 - codeforces.com
 - youtube.com
 	- https://www.youtube.com/user/purpongie/videos
+	- https://www.youtube.com/channel/UCZCFT11CWBi3MHNlGf019nw/videos
+	- https://www.youtube.com/user/mikeysambol/videos
 	- [R] Channels
 - geeksforgeeks.org
 - info.berzsenyi.hu/szakkoeroek/algoritmus-szakkoer
@@ -53,6 +56,8 @@
 - wcipeg.com
 - spoj.com
 - uva.onlinejudge.org
+- https://ncpc.idi.ntnu.no/
+- https://projecteuler.net/
 
 # Szakkörök
 - Fazekas szakkör

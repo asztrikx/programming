@@ -155,7 +155,8 @@ struct point{
 | pop_back  | 1    |
 ```c++
 for (auto item : array){
-
+}
+for (auto& item : array){
 }
 ```
 ## `queue`
@@ -180,7 +181,8 @@ struct point{
 };
 ```
 ## `deque`
-> double ended queue: `vector` kiegészítve `push_front` és `pop_front` függvényekkel
+> double ended queue: `vector` kiegészítve `push_front` és `pop_front` függvényekkel  
+> Vector **gyorsabb**.
 
 | Property   | Time |
 |------------|------|
@@ -207,6 +209,7 @@ struct point{
 [R]TODO
 ## `pair`
 [R]TODO
+make_pair(first, second);
 ## `array`
 [R]TODO
 # STD Függvények
@@ -230,6 +233,7 @@ sort(v.begin(), v.end(), [](point a, point b){
 ```
 ## `reverse`
 ## `unique`
+> Már rendezett elemeknél ajánlott
 ```c++
 auto it = unique(v.begin(), v.end());   
 v.resize(distance(v.begin(),it));
