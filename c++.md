@@ -31,8 +31,8 @@ foo(a);
 	- long long `64bit`
 # Felépítés
 ```c++
-#include <bits/stdc++.h>
 #define _GLIBCXX_DEBUG
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -233,12 +233,24 @@ sort(v.begin(), v.end(), [](point a, point b){
 ```
 ## `reverse`
 ## `unique`
-> Már rendezett elemeknél ajánlott
+> Gyorsabb ha előtte rendezzük az elemeket
 ```c++
 auto it = unique(v.begin(), v.end());   
 v.resize(distance(v.begin(),it));
 ```
-## swap
+## `swap`
+## `__gcd`
+> Legnagyobb közös osztó
+## `lower_bound`
+## `upper_bound`
+## `next_permutation`
+## `prev_permutation`
+## `_builtin_popcount`
+> Beállított bit-ek egy int-ben
+## `__builtin_ctz`
+> Jobb oldalról az első beállított bit indexe
+## `__builtin_clz`
+> Bal oldalról az első beállított bit indexe
 # Futásidő
 | Big O notation | Time | Input Limit/s |
 |----------------|------|---------------|

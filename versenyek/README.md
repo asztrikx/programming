@@ -1,21 +1,22 @@
 # Versenyek, Feladatbankok
-| Név | Csapat? | Jelentkezés | Típus | Link |
-| ---			| :-: | :-: | :-: | ---			|
-| OKTV*						|   | Iskolai	| Éles		| [Link](https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/aktualis_versenyidoszak) |
-| Nemes Tihamér*			|   | Iskolai	| Éles		| [Link](http://nemes.inf.elte.hu/) |
-| Dusza Árpád Programozási*	| ✓ | Iskolai	| Éles		| [Link](https://isze.hu/dusza-arpad-orszagos-programozoi-emlekverseny/) |
-| Izsák Imre Gyula*			|   | Zárt		| Éles		| [Link](http://www.zmgzeg.sulinet.hu/izsak/) |
-| IOI						|   | -			| Éles		| [Link](https://ioinformatics.org/) |
-| CEOI						|   | -			| Éles		| [Link](http://ceoi.inf.elte.hu/) |
-| Olimpiai válogató verseny	|   | -			| Éles		| [Link](http://tehetseg.inf.elte.hu/valogatok/valogatok_main.html) |
-| Innopolis					|   | Egyéni	| Éles		| [Link](https://olymp.innopolis.ru/en/ooui/information/) |
-| KöMaL						|   | Egyéni	| Gyakorló	| [Link](https://www.komal.hu/) |
-| Google Code Jam			|   | Egyéni	| Gyakorló	| [Link](https://codingcompetitions.withgoogle.com/codejam) |
-| Nemes Tihamér Online		|   | Egyéni	| Gyakorló	| [Link](http://tehetseg.inf.elte.hu/nemes-online/) |
-| COCI						|   | Egyéni	| Gyakorló	| [Link](http://hsin.hr/coci/) |
-| CSacademy					|   | Egyéni	| Gyakorló	| [Link](https://csacademy.com/) |
-| Codeforces				|   | Egyéni	| Gyakorló	| [Link](https://codeforces.com/) |
-| Codechef					|   | Egyéni	| Gyakorló	| [Link](https://www.codechef.com/) |
+| Név                       | Csapat? | Jelentkezés | Típus    | Korcsoport  | Link                                                                                                  |
+|---------------------------|---------|-------------|----------|-------------|-------------------------------------------------------------------------------------------------------|
+| OKTV*                     |         | Iskolai     | Éles     | Középiskola | [Link](https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/aktualis_versenyidoszak) |
+| Nemes Tihamér*            |         | Iskolai     | Éles     | Középiskola | [Link](http://nemes.inf.elte.hu/)                                                                     |
+| Dusza Árpád Programozási* | ✓       | Iskolai     | Éles     | Középiskola | [Link](https://isze.hu/dusza-arpad-orszagos-programozoi-emlekverseny/)                                |
+| Izsák Imre Gyula*         |         | Zárt        | Éles     | Középiskola | [Link](http://www.zmgzeg.sulinet.hu/izsak/)                                                           |
+| IOI                       |         | -           | Éles     | Középiskola | [Link](https://ioinformatics.org/)                                                                    |
+| CEOI                      |         | -           | Éles     | Középiskola | [Link](http://ceoi.inf.elte.hu/)                                                                      |
+| Olimpiai válogató verseny |         | -           | Éles     | Középiskola | [Link](http://tehetseg.inf.elte.hu/valogatok/valogatok_main.html)                                     |
+| Innopolis                 |         | Egyéni      | Éles     | Középiskola | [Link](https://olymp.innopolis.ru/en/ooui/information/)                                               |
+| KöMaL                     |         | Egyéni      | Gyakorló | Középiskola | [Link](https://www.komal.hu/)                                                                         |
+| Google Code Jam           |         | Egyéni      | Gyakorló | Középiskola | [Link](https://codingcompetitions.withgoogle.com/codejam)                                             |
+| Nemes Tihamér Online      |         | Egyéni      | Gyakorló | Középiskola | [Link](http://tehetseg.inf.elte.hu/nemes-online/)                                                     |
+| COCI                      |         | Egyéni      | Gyakorló | Középiskola | [Link](http://hsin.hr/coci/)                                                                          |
+| CSacademy                 |         | Egyéni      | Gyakorló | Középiskola | [Link](https://csacademy.com/)                                                                        |
+| Codeforces                |         | Egyéni      | Gyakorló | Középiskola | [Link](https://codeforces.com/)                                                                       |
+| Codechef                  |         | Egyéni      | Gyakorló | Középiskola | [Link](https://www.codechef.com/)                                                                     |
+| ICPC                      | ✓       | ?           | Éles     | Egyetem     | [Link](https://icpc.baylor.edu/)                                                                      |
 > \* Olimpiai válogatóra meghívást biztosíthat (IOI, CEOI)  
 > http://tehetseg.inf.elte.hu/valogatok/valogatok_main.html#resztvevok
 
@@ -28,6 +29,11 @@
 - tehetseg.inf.elte.hu
 	- tehetseg.inf.elte.hu/szakkorefop2017/
 	- tehetseg.inf.elte.hu/szakkor/
+	- http://tehetseg.inf.elte.hu/valogatok/
+	- http://tehetseg.inf.elte.hu/ceoi/
+	- http://tehetseg.inf.elte.hu/ioi/
+	- http://tehetseg.inf.elte.hu/nemes/
+	- http://tehetseg.inf.elte.hu/nemes-online/
 - [Programozási ismeretek versenyzőknek](http://www.zmgzeg.sulinet.hu/programozas/#progism3)
 - oktatas.hu
 	- Megoldások letöltése
@@ -40,6 +46,7 @@
 	- [R] Channels
 - geeksforgeeks.org
 - info.berzsenyi.hu/szakkoeroek/algoritmus-szakkoer
+- e-maxx.ru/algo/
 
 # Feladatbankok
 - codeforces.com

@@ -31,3 +31,4 @@ https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek
 https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/2015_2016_helyezettek
 https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/2016_2017_helyezettek
 https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/2017_2018_helyezettek
+https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/2018_2019_helyezettek

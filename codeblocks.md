@@ -22,6 +22,8 @@ codeblocks-17.12mingw-setup.exe
 		- Use TAB character: `true`
 	- Code completion //Ha nem megy az autocomplete
 		- Disable SmartSense: `true`
+# .h és .cpp hozzáadása
+Project > Add files... > Select > Ok
 # Debug
 - Debugging windows
 	Watches: `true`
