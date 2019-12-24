@@ -17,7 +17,7 @@ vector<vector<edge>> graph(n);
 ```c++
 struct edge{
 	int weight, node;
-	bool operator<(other edge){
+	bool operator<(other edge) const {
 		return weight>other.weight;
 	}
 }

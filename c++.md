@@ -260,5 +260,6 @@ v.resize(distance(v.begin(),it));
 | ?              | NlgN |      5M       |
 | Quadratic      | N^2  |      10K      |
 | Cubic          | N^3  |      450      |
+| ?????          | N^4  |      100      |
 | Exponential    | 2^N  |      27       |
 | Factorial      | N!   |      11       |
