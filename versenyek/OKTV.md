@@ -14,6 +14,7 @@
 Ritka esetek
 - Feladat fordítva megoldva néha gyorsabb
 - Néha sorrendbe kell kiírni mégha nincs is leírva
+
 Segítség
 - Feladatleírás
 - Futásidő
