@@ -14,6 +14,10 @@
 Ritka esetek
 - Feladat fordítva megoldva néha gyorsabb
 - Néha sorrendbe kell kiírni mégha nincs is leírva
+Segítség
+- Feladatleírás
+- Futásidő
+- Részfeladatok (Pontozás bekezdés)
 # Helyezettek
 https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2002_2003helyezettek
 https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2003_2004helyezettek
