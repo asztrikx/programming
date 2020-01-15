@@ -1,6 +1,7 @@
 done[iteration]
 2 dolog közös sortolása 3. index tartalmú tömbbel  
 Ha tudnunk kell az eredeti indexeket, akkor propertyként mentsük le  __gcd  
+4 irány: elmozdulás tömb: x,y  
 
 https://github.com/niklaci/NT-Syllabus  
 ioi syllabus  
