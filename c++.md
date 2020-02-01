@@ -1,10 +1,8 @@
-# Editor
-## Codeblocks
 # Pointer
 > Változó memóriacímét tartalmazó változó
 ```c++
-point *p=&a, *q=&b;
-p=&b; q=&a;
+point *p = &a, *q = &b;
+p = &b; q = &a;
 ```
 # Reference
 > const pointer
@@ -31,13 +29,14 @@ foo(a);
 	- long long `64bit`
 # Felépítés
 ```c++
-#define _GLIBCXX_DEBUG
-#include <bits/stdc++.h>
+#define _GLIBCXX_DEBUG //Codeblocks esetén
+#include <bits/stdc++.h> //Codeblocks esetén
+#include <iostream> //más esetén
+#include <algorithm> //más esetén
 
 using namespace std;
 
-int main()
-{
+int main() {
 	cin.sync_with_stdio(false);
 	cin.tie(nullptr);
 
@@ -53,32 +52,35 @@ int main()
 ```
 `#define _GLIBCXX_DEBUG` lassítást okozhat, beküldés előtt érdemes kivenni
 # IO
-Alap
+> Alap
 ```c++
 cin.sync_with_stdio(false);
 cin.tie(nullptr);
 cin >> var1 >> var2;
 cout << var2 << " " << var1 << '\n';
 ```
-Leggyorsabb, nem feltétlen kell, de sokat gyorsít
+> Leggyorsabb, nem feltétlen kell, de sokat gyorsít
+> Ha lokálisan Windowson dolgozunk: `getchar();`
 ```c++
 #define READ c = getchar_unlocked();
-int read(){
+int read() {
 	char READ;
-	while(c<=' '){
+	while (c <= ' ') {
 		READ;
 	}
-	bool negative=false;
-	if(c=='-'){
-		negative=true;
+
+	bool negative = false;
+	if (c == '-') {
+		negative = true;
 		READ;
 	}
-	int number;
-	do{
-		number=(number<<3)+(number<<1)+c-'0';
+
+	int number = 0;
+	while (c > ' ') {
+		number = 10 * number + (c - '0');
 		READ;
-	}while(c>' ')
-	if(negative){
+	}
+	if (negative) {
 		return -number;
 	}
 	return number;
@@ -89,7 +91,7 @@ int var1=read();
 # Struktúrák
 ```c++
 struct point{
-	ll x, y;
+	long long x, y;
 	int index;
 	point operator-(point other){
 		point p;
@@ -123,25 +125,38 @@ struct point{
 | top      | 1    |
 | pop      | 1    |
 ## `set`
-> Bináris keresőfa
+> Binary search tree
 
-| Property      | Time |
-|---------------|------|
-| insert        | logN |
-| lower_bound   | logN |
-| upper_bound   | logN |
-| find          | logN |
-| size          | 1    |
-| erase(it)     | 1    |
-| erase(val)    | logN |
-| erase(it, it) | N    |
-| clear         | N    |
+|    Property    |       Time        |
+|----------------|-------------------|
+| insert         | logN              |
+| lower_bound    | logN              |
+| upper_bound    | logN              |
+| find           | logN              |
+| size           | 1                 |
+| erase(it)      | 1                 |
+| erase(val)     | logN              |
+| erase(it, it2) | distance(it, it2) |
+| clear          | N                 |
+> `find` returns `.end()` iterator if value could not be found
 ## `multiset`, ...
 [R]TODO
 ## `unordered_set`, `unordered_map`
 [R]TODO
 ## `list`
-[R]TODO
+> Double linked list
+
+|  Property  | Time |
+|------------|------|
+| front      | 1    |
+| back       | 1    |
+| assign     | N    |
+| pop_front  | 1    |
+| pop_back   | 1    |
+| push_front | 1    |
+| push_back  | 1    |
+| insert     | 1    |
+> `erase` returns iterator to next element
 ## `vector`
 > Tömb
 
@@ -169,9 +184,9 @@ for (auto& item : array){
 | front    | 1    |
 | pop      | 1    |
 ## `priority_queue`
-> Prioritás szerint rendezett elemek  
-> Struktúrák `<` szerint rendeződnek  
-> Kivétel `heap` miatt fordított sorrendben lesz
+> Values ordered by priority  
+> Values order according to `<` 
+> `top()` will return values reversed because(?) it uses `heap`
 ```c++
 struct point{
 	long long x,y;
@@ -195,8 +210,8 @@ struct point{
 | pop_back   | 1    |
 | pop_front  | 1    |
 ## `map`
-> Asszociatív indexelésű tömb  
-> Elem deklarálás: `m["foo"]=m["foo"]`  
+> Associative array
+> Elem deklarálás: `m["foo"] = m["foo"]`  
 > Iterátor `pair<,>`-t ad vissza  
 
 | Property | Time |
@@ -205,10 +220,11 @@ struct point{
 | []       | 1    |
 | front    | 1    |
 | pop      | 1    |
+> `find` returns `.end()` iterator if value could not be found
+> `find` returns pair<iterator, value>
 ## `multimap`
 [R]TODO
 ## `pair`
-[R]TODO
 make_pair(first, second);
 ## `array`
 [R]TODO
@@ -216,16 +232,14 @@ make_pair(first, second);
 ## `min`
 ## `max`
 ## `sort`
-> 2 dolog közös sortolása 3. index tartalmú tömbbel  
-> Ha tudnunk kell az eredeti indexeket, akkor propertyként mentsük le  
 > `strict weak`: ugyanazon tulajdonságokra `false`-t kell adni  
 ```c++
-sort(v.begin(), v.end(), [](point a, point b){
-	if(
-		a.y<b.y ||
-		a.y==b.y &&
-		a.x<b.x
-	){
+sort(v.begin(), v.end(), [](point a, point b) {
+	if (
+		a.y < b.y ||
+		a.y == b.y &&
+		a.x < b.x
+	) {
 		return true;
 	}
 	return false;
@@ -240,16 +254,20 @@ v.resize(distance(v.begin(),it));
 ```
 ## `swap`
 ## `__gcd`
+> Linux only
 > Legnagyobb közös osztó
 ## `lower_bound`
 ## `upper_bound`
 ## `next_permutation`
 ## `prev_permutation`
-## `_builtin_popcount`
+## `__builtin_popcount`
+> Linux only
 > Beállított bit-ek egy int-ben
 ## `__builtin_ctz`
+> Linux only
 > Jobb oldalról az első beállított bit indexe
 ## `__builtin_clz`
+> Linux only
 > Bal oldalról az első beállított bit indexe
 # Futásidő
 | Big O notation | Time | Input Limit/s |

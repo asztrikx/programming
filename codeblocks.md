@@ -26,8 +26,8 @@ codeblocks-17.12mingw-setup.exe
 Project > Add files... > Select > Ok
 # Debug
 - Debugging windows
-	Watches: `true`
-	Call stack: `true`
+	- Watches: `true`
+	- Call stack: `true`
 # Shortcuts
 http://wiki.codeblocks.org/index.php?title=Keyboard_Shortcuts
 
