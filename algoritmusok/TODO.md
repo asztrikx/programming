@@ -8,4 +8,6 @@ ioi syllabus
 DP bin  
 2sat  
 max flow=min cut  
-Rekurzió jó lehet javarészt  
+Rekurzió jó lehet javarészt
+
+direction array (4)
