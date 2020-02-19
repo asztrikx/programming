@@ -56,6 +56,7 @@ b * a = b * (k * c + r)
 = b * k * c + b * r 
 = k * (b * c) + (b * r)
 //r < c so b * r < b * c so b * r will be the remainder when divided by b * c
+= k * (b * c) + r2
 
 (b * a) % (b * c) = r2 = b * r = b * (a % c)
 ```
