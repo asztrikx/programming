@@ -22,6 +22,10 @@
 > http://tehetseg.inf.elte.hu/valogatok/valogatok_main.html#resztvevok
 
 > [Google Calendar, sajátunkhoz adjuk hozzá](https://calendar.google.com/calendar/embed?title=Tanulm%C3%A1nyi+versenyek&wkst=2&bgcolor=%23FFFFFF&src=ss881teo41uk82ir2g5p4bk6l0@group.calendar.google.com&color=%23182C57&src=rsd5iorkti3b2fuclehukn95s0@group.calendar.google.com&color=%23B1440E&src=omhgl1n9epdsefcu087cqouie0@group.calendar.google.com&color=%2342104A&src=hu.hungarian%23holiday@group.v.calendar.google.com&color=%23125A12&ctz=Europe/Budapest&hl=hu)
+
+> OKTV/Nemes:  
+> [Jelenleg nem hivatalos témakörök](https://github.com/niklaci/NT-Syllabus)  
+> [oktatas.hu:](oktatas.hu) régi feladatok, feladatok, feladat megoldások  
 # Források
 - tamop412.elte.hu/tananyagok/algoritmusok
 - cplusplus.org
@@ -53,12 +57,14 @@
 - codeforces.com
 	- Profile > Change settings > Show tags for unsolved problems: false
 - mester.inf.elte.hu
+	- [Github version](https://github.com/lezsakdomi/elte-mester-data)
+	- [Searchable version](https://lezsakdomi.github.io/elte-mester-data)
 	- Crawlerrel lokális másolat felépítése
 	- Teszt#: 7.1 jelentése: 7.feladat 1.sora
 	- Egy jó részeredményre is járhat pont
 	- Haladó > Mohó algoritmusok > 59. Konténer pakolás ⁎⁎⁎ > minta.zip
 		- valamiért pdfeket vannak benne implementációkkal
-	- oktatas.hu: régi oktv feladatok megkeresése
+	- [Megoldások](https://github.com/lezsakdomi/mester)
 - urionlinejudge.com.br/judge/en/categories
 - ipsc.ksp.sk
 - wcipeg.com
@@ -76,7 +82,11 @@
 		- 2 Facebook
 		- 1 Slack
 		- 1 Messenger
-- [Elte Szakkör](http://tehetseg.inf.elte.hu/szakkorok.html)
+- [Elte szakkör](http://tehetseg.inf.elte.hu/szakkorok.html)
+- [BME egyetemi verseny (ACM) felkészítő szakkör](http://cs.bme.hu/acm)
+
+# Tábor
+- Nyári ELTE-s? tehetség gondozó tábor matekos alapokkal
 
 # 1. Papíron, fejben
 # 2. Programozás
