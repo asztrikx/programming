@@ -27,6 +27,7 @@
 > [Jelenleg nem hivatalos témakörök](https://github.com/niklaci/NT-Syllabus)  
 > [oktatas.hu:](oktatas.hu) régi feladatok, feladatok, feladat megoldások  
 # Források
+- codeforces.com problem editorials
 - tamop412.elte.hu/tananyagok/algoritmusok
 - cplusplus.org
 - ntibi.web.elte.hu
@@ -40,8 +41,6 @@
 	- http://tehetseg.inf.elte.hu/nemes/
 	- http://tehetseg.inf.elte.hu/nemes-online/
 - [Programozási ismeretek versenyzőknek](http://www.zmgzeg.sulinet.hu/programozas/#progism3)
-- oktatas.hu
-	- Megoldások letöltése
 - komal.hu/forum
 - codeforces.com
 - youtube.com

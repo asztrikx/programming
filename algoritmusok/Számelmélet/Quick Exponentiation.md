@@ -4,6 +4,8 @@
 > We multiple b with itself (double the exponentiation each iteration) and  
 > `If` in the binary form at index iterationCount (starting from 0) from right is 1  
 > `Then` we multiply b to result starting from 1
+# Proof
+[R] TODO
 # Example
 > 3^13
 ```
