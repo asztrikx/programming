@@ -63,7 +63,7 @@ int mod(int a, int b) {
 > (a * b) % c = ((a % c) * (b % c)) % c
 
 # Proof
-> Let `k1, k2, k3` be `positive, whole` numbers  
+> Let `k1, k2, k3` be `positive, integer` numbers  
 > Let `r1, r2` be the `remainders`, so r1, r2 ∈ [0; c)  
 > a = k1 * c + r1  
 > b = k2 * c + r2  
@@ -73,5 +73,5 @@ int mod(int a, int b) {
 = (c * (c * k1 * k2 + k1 * r2 + k2 * r1) + r1 * r2) % c
 = (c * k3 + r1 * r2) % c
 = (r1 * r2) % c
-= (a % c * b % c) % c
+= ((a % c) * (b % c)) % c
 ```
