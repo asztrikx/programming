@@ -1,5 +1,5 @@
 # Thesis
-> Shortest path from starting node to all nodes can be aquired in O(N)
+> Shortest path from starting node to all nodes can be aquired in O(N + M)
 # Proof
 > Nodes can be divided into groups based on their shortest path's length  
 > In the 0th group will be the start node  

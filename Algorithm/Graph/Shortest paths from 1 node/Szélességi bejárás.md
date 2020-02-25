@@ -1,38 +1,12 @@
 # Adatlap
 ## Használat
-1. > Legrövidebb utak `start`-ból az összes csúcsba, egység hosszúságú éleknél
 2. > Szélességi feszítőfa
 3. > Kör keresése irányítatlan gráfban
-## Big O notation
-> O(N+M)
-## Memória
-> N
 # Példakód
 Bement
 ```c++
 int n, start;
 vector<vector<int>> graph(n);
-```
-## 1.
-```c++
-vector<int> timeS(n, -1);
-vector<bool> doneS(n);
-vector<bool> parentS(n);
-queue<int> q;
-timeS[start]=0;
-doneS[start]=true;
-q.push(start);
-while(!q.empty()){
-	int current=q.top(); q.pop();
-	for(auto item:graph[current]){
-		if(!doneS[item]){
-			q.push(item);
-			doneS[item]=true;
-			timeS[item]=timeS[current]+1;
-			parentS[item]=current;
-		}
-	}
-}
 ```
 ## 2.
 ```c++

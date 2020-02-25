@@ -1,3 +1,5 @@
+# [R] TODO 
+
 done[iteration]
 2 dolog közös sortolása 3. index tartalmú tömbbel  
 Ha tudnunk kell az eredeti indexeket, akkor propertyként mentsük le  __gcd  

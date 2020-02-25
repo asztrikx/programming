@@ -2,23 +2,6 @@
 > To calculate gcd(a, b) call gcd(b, a % b) until b is zero  
 > The result will be in `a`  
 # Proof
-## Thesis
-> (b * a) % (b * c) = (a % c) * b
-## Proof
-> Let `k` be `positive, integer` number  
-> Let `r` be the `remainder` of a % c, so r ∈ [0; c)  
-> Let `r2` be the `remainder` of (b * a) % (b * c), so r ∈ [0; b * c)  
-> a = k * c + r    
-```
-b * a = b * (k * c + r)
-= b * k * c + b * r 
-= k * (b * c) + (b * r)
-//r < c so b * r < b * c so b * r will be the remainder when divided by b * c
-= k * (b * c) + r2
-
-(b * a) % (b * c) = r2 = b * r = b * (a % c)
-```
----
 > Let `g` be the unknown `GCD`  
 > Let `x` be `a / g`  
 > Let `y` be `b / g`  

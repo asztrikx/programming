@@ -1,66 +1,133 @@
-# Pointer
-> Változó memóriacímét tartalmazó változó
+# Includes
+> First part of the source file is including prewritten code  
+> Syntax `#include <name>`
 ```c++
-point *p = &a, *q = &b;
-p = &b; q = &a;
+#include <iostream>
+#include <algorithm>
+#include <vector>
 ```
-# Reference
-> const pointer
-```c++
-point &p=a, &q=b;
-```
-```c++
-void foo(const point &bar){
-	cout << bar.x;
-}
-point a;
-foo(a);
-```
-# Adattípusok
-- Terjedelem
-	```c++
-	int i; //[-2^(x-1), 2^(x-1)-1]
-	unsigned int i; //[0, 2^x-1]
-	```
-- Méret
-	- char `8bit`
-	- short `16bit`
-	- int `32bit`
-	- long long `64bit`
-# Felépítés
-```c++
-#define _GLIBCXX_DEBUG //Codeblocks esetén
-#include <bits/stdc++.h> //Codeblocks esetén
-#include <iostream> //más esetén
-#include <algorithm> //más esetén
 
+# Namespaces
+> Namespaces separate functions with the same name  
+> Sytanx `namespace::function`  
+> E.g. robot::jump() and character::jump()  
+> `std` namespace's functions are often used so we take it out from this separation  
+```c++
 using namespace std;
+```
 
+# Entrance point
+> The function which is called after c++ finished setting up its environment  
+```c++
+int main() {
+	return 0;
+}
+```
+
+# Debugging
+> assert(false); stops the program
+```c++
+#include <cassert>
+```
+```c++
+assert(a != 0);
+```
+
+# Data types
+- Text
+	- `string`
+- Number
+	- Integer
+		- Based on size
+            - |   Syntax    |  Size  |
+              | ----------- | -----: |
+              | `char`      |  8 bit |
+              | `short`     | 16 bit |
+              | `int`       | 32 bit |
+              | `long long` | 64 bit |
+		- Based on range
+            - |           Syntax           |            Range            |
+              | -------------------------- | --------------------------- |
+              | `unsigned`                 | [-2^(x - 1), 2^(x - 1) - 1] |
+              | `signed`  (can be ommited) | [0, 2^x - 1]                |
+		- E.g. `unsigned int name;`
+	- Non-integer
+		> Avoid unless is specifically asked
+		- `double`
+		- `float`
+- Complex
+	- `struct`
+		- Declaration
+			> Outside of functions
+			```c++
+			struct name {
+			};
+			```
+		- Addig different types
+			```c++
+			struct name {
+				int name2, name3;
+				string name3;
+			};
+			```
+		- Addig operators between structs with the same time
+			```c++
+			struct point {
+				long long x, y;
+				point operator-(point other) {
+					point p;
+					p.x = x - other.x;
+					p.y = y - other.y;
+					return p;
+				}
+			};
+			```
+			```c++
+			point p, q;
+			p.x = 6; p.y = 7;
+			q.x = -2; q.y = 3;
+			point r = p - q;
+			assert(r.x == 8 && r.y == 4);
+			```
+	- `class`
+
+# Pointer
+> Variable containing the memory address of another variable  
+```c++
+point* p = &a;
+assert(p->x == a.x && p->y == a.y);
+p = &b;
+assert(p->x == b.x && p->y == b.y);
+```
+
+# Reference
+> == `const` pointer
+```c++
+point& p = a;
+assert(p.x == a.x && p.y == a.y);
+p = &b; //Error
+```
+
+# IO
+> Basic
+```c++
 int main() {
 	cin.sync_with_stdio(false);
 	cin.tie(nullptr);
 
 	//Input
-
-	//Process
+	int var1;
+	string var2;
+	cin >> var1 >> var2; //153 duck
 
 	//Output
-
-	cout<<endl;
+	cout << var2 << " " << var1 << endl; //duck 153
 	return 0;
 }
 ```
-`#define _GLIBCXX_DEBUG` lassítást okozhat, beküldés előtt érdemes kivenni
-# IO
-> Alap
-```c++
-cin.sync_with_stdio(false);
-cin.tie(nullptr);
-cin >> var1 >> var2;
-cout << var2 << " " << var1 << '\n';
-```
-> Leggyorsabb, nem feltétlen kell, de sokat gyorsít
-> Ha lokálisan Windowson dolgozunk: `getchar();`
+
+> Fastest, usually not needed  
+> For local tests on Windows use: `getchar();`  
 ```c++
 #define READ c = getchar_unlocked();
 int read() {
@@ -86,22 +153,36 @@ int read() {
 	return number;
 }
 #undef READ
-int var1=read();
 ```
-# Struktúrák
 ```c++
-struct point{
-	long long x, y;
-	int index;
-	point operator-(point other){
-		point p;
-		p.x=x-other.x;
-		p.y=y-other.y;
-		return p;
-	}
-};
+int var1 = read();
 ```
-# Iterátorok
+
+# Overall structure
+```c++
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+using namespace std;
+
+int main() {
+	cin.sync_with_stdio(false);
+	cin.tie(nullptr);
+
+	//Input
+
+	//Process
+
+	//Output
+
+	cout << endl;
+	return 0;
+}
+```
+
+# Bultin classes
+## Iterátorok
 > Adott helyen lévő érték `pointer`-e
 
 | Property | Time |
@@ -114,7 +195,6 @@ struct point{
 | distance | 1    |
 | next     | 1    |
 | prev     | 1    |
-# STD Típusok
 ## `stack`
 > Csak az utolsó elemet lehet megnézni, kivenni
 
@@ -228,9 +308,12 @@ struct point{
 make_pair(first, second);
 ## `array`
 [R]TODO
-# STD Függvények
+
+# Builtin functions
 ## `min`
+
 ## `max`
+
 ## `sort`
 > `strict weak`: ugyanazon tulajdonságokra `false`-t kell adni  
 ```c++
@@ -245,39 +328,37 @@ sort(v.begin(), v.end(), [](point a, point b) {
 	return false;
 });
 ```
+
 ## `reverse`
+
 ## `unique`
 > Gyorsabb ha előtte rendezzük az elemeket
 ```c++
 auto it = unique(v.begin(), v.end());   
-v.resize(distance(v.begin(),it));
+v.resize(distance(v.begin(), it));
 ```
+
 ## `swap`
+
 ## `__gcd`
-> Linux only
-> Legnagyobb közös osztó
+> Only on Linux  
+
 ## `lower_bound`
+
 ## `upper_bound`
+
 ## `next_permutation`
+
 ## `prev_permutation`
+
 ## `__builtin_popcount`
-> Linux only
+> Only on Linux
 > Beállított bit-ek egy int-ben
+
 ## `__builtin_ctz`
-> Linux only
+> Only on Linux
 > Jobb oldalról az első beállított bit indexe
+
 ## `__builtin_clz`
-> Linux only
+> Only on Linux
 > Bal oldalról az első beállított bit indexe
-# Futásidő
-| Big O notation | Time | Input Limit/s |
-|----------------|------|---------------|
-| Constant       | 1    |       -       |
-| Sublinear      | lgN  |      Big      |
-| Linear         | N    |     100M      |
-| ?              | NlgN |      5M       |
-| Quadratic      | N^2  |      10K      |
-| Cubic          | N^3  |      450      |
-| ?????          | N^4  |      100      |
-| Exponential    | 2^N  |      27       |
-| Factorial      | N!   |      11       |
