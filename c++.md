@@ -45,6 +45,14 @@ assert(a != 0);
               | `short`     | 16 bit |
               | `int`       | 32 bit |
               | `long long` | 64 bit |
+			- long long
+				> After includes use
+				```
+				#define ll long long
+				```
+				```
+				ll a = 1 << 60;
+				```
 		- Based on range
             - |           Syntax           |            Range            |
               | -------------------------- | --------------------------- |
@@ -157,6 +165,10 @@ int read() {
 ```c++
 int var1 = read();
 ```
+
+# Binary shift
+[R] TODO  
+ll a = 1LL << 60 m
 
 # Overall structure
 ```c++

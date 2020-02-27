@@ -5,6 +5,7 @@
 [R] TODO
 
 # Code
+[R] Call for all node
 ```c++
 vector<int> colorS;
 int timeAccess = 0;

@@ -1,3 +1,4 @@
+# [R] TODO
 # Adatlap
 ## Használat
 1. > Legrövidebb utak `Start`-ból az összes csúcsba, monoton összegű, szorzatú, ... éleknél
@@ -5,46 +6,47 @@
 ## Big O notation
 1. > O(NlogN+M)
 2. > O(N^2logN+MN)
-## Memória
-> N^2
-# Példakód
-Bement
+
+# Code
 ```c++
-int n, start;
-vector<vector<edge>> graph(n);
-```
-## 1.
-```c++
-struct edge{
-	int weight, node;
-	bool operator<(other edge) const {
-		return weight>other.weight;
+vector<vector<edge>> g;
+struct edge {
+	int start, end, weight;
+	bool operator<(edge other) const {
+		return weight > other.weight;
 	}
-}
-vector<int> timeS(n, -1);
-vector<int> doneS(n);
-vector<int> parentS(n);
-priority_queue<int> q;
-timeS[start]=0;
-doneS[start]=true;
-q.push(start);
-while(!q.empty()){
-	int current=q.top().node; q.pop();
-	if(doneS[current]){
-		continue;
-	}
-	doneS[current]=true;
-	for(auto item:graph[current]){
-		if(
-			!doneS[item.node] &&
-			timeS[item.node] == -1 ||
-			timeS[item.node] > timeS[current]+timeS[item].weight
-		){
-			timeS[item.node]=timeS[current]+timeS[item].weight;
-			parentS[item.node]=current;
+};
+vector<int> timeS;
+vector<int> parentS;
+void dijkstra(int start) {
+	timeS.assign(g.size(), -1);
+	parentS.assign(g.size(), -1);
+	priority_queue<edge> pq;
+
+	edge e;
+	e.start = -1;
+	e.end = start;
+	e.weight = 0;
+	pq.push(e);
+	while (!pq.empty()) {
+		e = pq.top(); pq.pop();
+		if (timeS[e.end] != -1) {
+			continue;
+		}
+
+		timeS[e.end] = e.weight;
+		parentS[e.end] = e.start;
+		for (auto ee : g[e.end]) {
+			if (timeS[ee] == -1) {
+				edge enew;
+				enew.start = e.end;
+				enew.end = ee.end;
+				enew.weight = timeS[e.end] + ee.weight;
+				pq.push(enew);
+			}
 		}
 	}
 }
 ```
-# Feladatok
-⊆ mester.inf.elte.hu\Haladó\Gráfok, legrövidebb utak\\*
+# Problems
+1. ⊆ mester.inf.elte.hu/Haladó/Gráfok, legrövidebb utak/*

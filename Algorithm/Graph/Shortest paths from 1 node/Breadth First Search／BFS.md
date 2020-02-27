@@ -69,3 +69,6 @@ void bfsPathto(int node) {
 	}
 }
 ```
+
+# Problems
+1. https://codeforces.com/contest/1272/problem/E

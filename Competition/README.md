@@ -26,66 +26,6 @@
 > OKTV/Nemes:  
 > [Jelenleg nem hivatalos témakörök](https://github.com/niklaci/NT-Syllabus)  
 > [oktatas.hu:](oktatas.hu) régi feladatok, feladatok, feladat megoldások  
-# Források
-- codeforces.com problem editorials
-- tamop412.elte.hu/tananyagok/algoritmusok
-- cplusplus.org
-- ntibi.web.elte.hu
-- nemes.inf.elte.hu
-- tehetseg.inf.elte.hu
-	- tehetseg.inf.elte.hu/szakkorefop2017/
-	- tehetseg.inf.elte.hu/szakkor/
-	- http://tehetseg.inf.elte.hu/valogatok/
-	- http://tehetseg.inf.elte.hu/ceoi/
-	- http://tehetseg.inf.elte.hu/ioi/
-	- http://tehetseg.inf.elte.hu/nemes/
-	- http://tehetseg.inf.elte.hu/nemes-online/
-- [Programozási ismeretek versenyzőknek](http://www.zmgzeg.sulinet.hu/programozas/#progism3)
-- komal.hu/forum
-- codeforces.com
-- youtube.com
-	- https://www.youtube.com/user/purpongie/videos
-	- https://www.youtube.com/channel/UCZCFT11CWBi3MHNlGf019nw/videos
-	- https://www.youtube.com/user/mikeysambol/videos
-	- [R] Channels
-- geeksforgeeks.org
-- info.berzsenyi.hu/szakkoeroek/algoritmus-szakkoer
-- e-maxx.ru/algo/
-
-# Feladatbankok
-- codeforces.com
-	- Profile > Change settings > Show tags for unsolved problems: false
-- mester.inf.elte.hu
-	- [Github version](https://github.com/lezsakdomi/elte-mester-data)
-	- [Searchable version](https://lezsakdomi.github.io/elte-mester-data)
-	- Crawlerrel lokális másolat felépítése
-	- Teszt#: 7.1 jelentése: 7.feladat 1.sora
-	- Egy jó részeredményre is járhat pont
-	- Haladó > Mohó algoritmusok > 59. Konténer pakolás ⁎⁎⁎ > minta.zip
-		- valamiért pdfeket vannak benne implementációkkal
-	- [Megoldások](https://github.com/lezsakdomi/mester)
-- urionlinejudge.com.br/judge/en/categories
-- ipsc.ksp.sk
-- wcipeg.com
-- spoj.com
-- uva.onlinejudge.org
-- https://ncpc.idi.ntnu.no/
-- https://projecteuler.net/
-
-# Szakkörök
-- Fazekas szakkör
-	- szintek
-		- közép
-		- haladó
-	- kapcsolat
-		- 2 Facebook
-		- 1 Slack
-		- 1 Messenger
-- [Elte szakkör](http://tehetseg.inf.elte.hu/szakkorok.html)
-- [BME egyetemi verseny (ACM) felkészítő szakkör](http://cs.bme.hu/acm)
-
-# Tábor
-- Nyári ELTE-s? tehetség gondozó tábor matekos alapokkal
 
 # 1. Papíron, fejben
 # 2. Programozás
