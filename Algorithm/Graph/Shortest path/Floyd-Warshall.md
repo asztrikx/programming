@@ -2,7 +2,6 @@
 - [R] TODO
 not simple graph --> negative edge --> negative cycle
 
-
 # Proof
 - [R] TODO
 
