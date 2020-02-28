@@ -17,3 +17,6 @@ F) A kimenet rendezett? N -> logN optimalizációt enged esetleg?
 ## Memória
 # Példakód
 # Feladatok
+
+
+bfs, bellmanford, floyd

@@ -91,9 +91,7 @@ assert(a != 0);
 			};
 			```
 			```c++
-			point p, q;
-			p.x = 6; p.y = 7;
-			q.x = -2; q.y = 3;
+			point p = {6, 7}, q = {-2, 3};
 			point r = p - q;
 			assert(r.x == 8 && r.y == 4);
 			```

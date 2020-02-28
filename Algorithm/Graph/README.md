@@ -18,6 +18,8 @@
 	- [R] TODO
 - `parent`
 	- [R] TODO
+- `negative cycle`
+	- [R] TODO
 
 ## Types
 - Edges
@@ -46,7 +48,19 @@
 - Adjacency List
 	- [R] TODO
 
+# Danger
+- Complex? graph
+	- [R] TODO
+- Not connected? graph
+	- [R] TODO
+- Undirected graph
+	- [R] TODO
 
+# [R] TODO
+- postfix
+- prefix
+- infix
+- infós füzetek
 
 # Ábrázolás
 ## Csúcsmátrix

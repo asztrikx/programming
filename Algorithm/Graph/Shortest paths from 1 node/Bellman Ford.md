@@ -1,4 +1,4 @@
-# Adatlap
+# [R] TODO
 ## Használat
 1. > Legrövidebb utak `Start`-ból az összes csúcsba, ha nincs negatív kör
 2. > Negatív kör meghatározása
@@ -6,54 +6,61 @@
 > O(N^2+MN)
 ## Memória
 > N
-# Példakód
-Bement
+
+# Code
 ```c++
-int n, start;
-vector<vector<edge>> graph(n);
-```
-## 1. (`Egyszerű gráf`, `irányítatlan`)
-```c++
-struct edge{
-	int weight, node;
-	bool operator<(other edge){
-		return weight>other.weight;
-	}
-}
-vector<int> timeS(n, -1);
-vector<int> doneS(n);
-vector<int> parentS(n);
-timeS[start]=0;
-doneS[start]=true;
-queue<int> q;
-q.push(start);
-q.push(-1);
-for(int i=0; i<n-1; i++){
-	while(true){
-		int j=q.top(); q.pop();
-		if(j==-1){
-			break;
-			q.push(-1);
-		}
-		for(auto item:graph[j]){
-			if(parentS[j]==item.node){
-				continue;
-			}
-			if(timeS[item.node]>timeS[j]+timeS[item.weight]){
-				timeS[item.node]=timeS[j]+timeS[item.weight];
-				parentS[item.node]=j;
-				q.push(item.node);
+struct edge {
+	int start, end, weight;
+};
+int n /*= 5*/;
+vector<edge> edgeS /*= {
+	{ 0, 1, -1 },
+	{ 0, 2, 4 },
+	{ 1, 2, 3 },
+	{ 1, 3, 2 },
+	{ 1, 4, 2 },
+	{ 3, 2, 5 },
+	{ 3, 1, 1 },
+	{ 4, 3, -3 },
+}*/;
+vector<int> timeS;
+vector<int> parentS;
+const int INFINITE = (1 << 31) - 1;
+bool bellmanford(int start) {
+	timeS.assign(n, INFINITE);
+	parentS.assign(n, -1);
+	timeS[start] = 0;
+	for (int i = 1; i <= n - 1; i++) {
+		for (auto e : edgeS) {
+			if (timeS[e.end] > timeS[e.start] + e.weight) {
+				timeS[e.end] = timeS[e.start] + e.weight;
+				parentS[e.end] = e.start;
 			}
 		}
 	}
-	if(q.size()!=1){
-		break;
+
+	//Negative cycle in this component
+	bool negativecycle = false;
+	for (int j = 0; j < n; j++) {
+		for (auto e : edgeS) {
+			if (timeS[e.end] > timeS[e.start] + e.weight) {
+				negativecycle = true;
+				break;
+			}
+		}
 	}
+	return !negativecycle;
+}
+
+void bfsPathto(int node) {
+	if (node == -1) {
+		return;
+	}
+
+	bfsPathto(parentS[node]);
+	cout << node << endl;
 }
 ```
-## 2.
-```c++
-????
-```
-# Feladatok
-⊆ mester.inf.elte.hu\Haladó\Gráfok, legrövidebb utak\\*
+
+# Problems
+1. ⊆ mester.inf.elte.hu/Haladó/Gráfok, legrövidebb utak/*

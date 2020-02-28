@@ -31,8 +31,8 @@ vector<int> timeS;
 vector<int> parentS;
 void bfs(int start) {
 	//All nodes are unreachable by default
-	timeS.resize(g.size(), -1);
-	parentS.resize(g.size(), -1);
+	timeS.assign(g.size(), -1);
+	parentS.assign(g.size(), -1);
 	//But we can reach the start node instantly
 	timeS[start] = 0;
 
@@ -55,18 +55,16 @@ void bfs(int start) {
 	}
 }
 
+//We know for every (x + 1)-th node what was the node that connected it to the x-th
+//If we want to get the path starting from the start node we must reverse the path
+//For that we use postfix traversal
 void bfsPathto(int node) {
-	//We know for every (x + 1)-th node what was the node that connected it to the x-th
-	//If we want to get the path starting from the start node we must reverse the path
-	stack<int> s;
-	int current = node;
-	while (current != -1) {
-		s.push(current);
-		current = parentS[current];
+	if (node == -1) {
+		return;
 	}
-	while (!s.empty()) {
-		cout << s.top() << " "; s.pop();
-	}
+
+	bfsPathto(parentS[node]);
+	cout << node << endl;
 }
 ```
 

@@ -5,3 +5,6 @@
   - Check Output for real error message
 - No error message
   - Rebuild project
+# Call Stack
+# Break point
+- If code does not stop at breakpoint/It repositions itself after run, then create a new project

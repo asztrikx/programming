@@ -21,6 +21,24 @@
   ```
   ## Segmentation
   //[R] TODO (Input, out-, process)
+  ## Use `,` even after the last item in a listing
+  > On a multiline listing it's easy to miss out the line ending `,`
+  ```c++
+  vector<int> a = {
+    5,
+    4,
+    3 //Syntax Error
+    2
+  };
+  ```
+  ```c++
+  vector<int> a = {
+    5,
+    4,
+    3,
+    2,
+  };
+  ```
 # Folder
   //[R] TODO (1_cpp.cpp)
   //[R] Clone mester
