@@ -1,11 +1,11 @@
 # Coding
   ## Use camalCase
-  > The matter is that the codes should not be different for the ease of reading
-  > It can be better as it creates shorter variable names
+  > The matter is that the codes should not be different for the ease of reading  
+  > It can be better as it creates shorter variable names  
   ## Do not shorten calculations
   > It is easier to see how you got to the number in eg. indexing, array size
   ```c++
-  array[ordinalNumber-1+1]; //access right next number to ordinalNumber
+  array[ordinalNumber - 1 + 1]; //access right next number to ordinalNumber
   ```
   ## End array variable names with S
   > It signs that we have a collection of something
