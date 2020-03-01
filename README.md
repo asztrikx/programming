@@ -2,7 +2,7 @@
 - `array` = `ordered set`
 	> First element's index is 0  
 	> Every other element's index is the one before it + 1  
-	> Notation of indexed array `A`.
+	> Notation of indexed array `Ai`.
 	- A0
 	- Ai
 	- A(i + 1)
