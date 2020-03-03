@@ -32,6 +32,17 @@ int main() {
 ```c++
 assert(a != 0);
 ```
+> Local testing messages
+```c++
+#ifdef _WIN32 
+#define iff if(true)
+#else
+#define iff if(false)
+#endif
+```
+```c++
+iff cout << "This happened" << endl;
+```
 
 # Data types
 - Text
@@ -81,12 +92,9 @@ assert(a != 0);
 		- Addig operators between structs with the same time
 			```c++
 			struct point {
-				long long x, y;
+				long long y, x;
 				point operator-(point other) {
-					point p;
-					p.x = x - other.x;
-					p.y = y - other.y;
-					return p;
+					return { y - other.y, x - other.x};
 				}
 			};
 			```
@@ -112,6 +120,14 @@ assert(p->x == b.x && p->y == b.y);
 point& p = a;
 assert(p.x == a.x && p.y == a.y);
 p = &b; //Error
+```
+
+# Array
+> [R] TODO what is it  
+> Only use if vector would be redeclared many times  
+```c++
+int b[6];
+int a[] = { 5, 4, 3 };
 ```
 
 # IO
@@ -168,6 +184,29 @@ int var1 = read();
 [R] TODO  
 ll a = 1LL << 60 m
 
+# Struct hashing
+> For indexing `set` or `map` with a struct
+```c++
+struct point {
+	int y, x;
+
+	bool operator==(point other) const {
+		return y == other.y && x == other.x;
+	}
+};
+
+namespace std {
+	template<> struct hash<point> {
+		size_t operator()(const point& p) const {
+			auto hasher = hash<int>{};
+			auto hashY = hasher(p.y);
+			auto hashX = hasher(p.x);
+			return hashY ^ (hashX << 1);
+		}
+	};
+}
+```
+
 # Overall structure
 ```c++
 #include <iostream>
@@ -192,6 +231,7 @@ int main() {
 ```
 
 # Bultin classes
+[R] In depth function uses  
 ## Iterátorok
 > Adott helyen lévő érték `pointer`-e
 
@@ -234,12 +274,14 @@ int main() {
 ## `unordered_set`, `unordered_map`
 [R]TODO
 ## `list`
-> Double linked list
+> Double linked list  
+> Much slower than vector  
 
 |  Property  | Time |
 |------------|------|
 | front      | 1    |
 | back       | 1    |
+| resize     | N    |
 | assign     | N    |
 | pop_front  | 1    |
 | pop_back   | 1    |
@@ -248,7 +290,8 @@ int main() {
 | insert     | 1    |
 > `erase` returns iterator to next element
 ## `vector`
-> Tömb
+> Tömb  
+> Pass by value [R] TODO  
 
 | Property  | Time |
 |-----------|------|
@@ -278,10 +321,10 @@ for (auto& item : array){
 > Values order according to `<` 
 > `top()` will return values reversed because(?) it uses `heap`
 ```c++
-struct point{
-	long long x,y;
-	bool operator<(point other) const{
-		return x>other.x;
+struct point {
+	long long y, x;
+	bool operator<(point other) const {
+		return x > other.x;
 	}
 };
 ```
