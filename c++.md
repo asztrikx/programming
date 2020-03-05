@@ -383,6 +383,7 @@ sort(v.begin(), v.end(), [](point a, point b) {
 ```
 
 ## `reverse`
+[R] reverse(begin(), end());
 
 ## `unique`
 > Gyorsabb ha előtte rendezzük az elemeket
@@ -392,6 +393,7 @@ v.resize(distance(v.begin(), it));
 ```
 
 ## `swap`
+[R] Iterators swap(*it1, *it2)
 
 ## `__gcd`
 > Only on Linux  

@@ -84,6 +84,7 @@
 
 # Szakkörök
 - Fazekas szakkör
+	> Időpont választás szeptemberben szavazás alapján  
 	- szintek
 		- közép
 		- haladó

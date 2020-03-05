@@ -1,21 +1,3 @@
-Két vektor összeg paralelogramma területe
-	64bites
-	P1XP2=x1y2-x2y1=-P2XP1
-Két pont viszonya egymáshoz
-	P1XP2<0 P2 jobbra
-	P1XP2>0 P2 balra
-	P1XP2=0 P2 egy vonalban / kollineáris
-	P1=(-P0+P1)
-	P2=(-P0+P2)
-Kollineáris esetén a 2. pont az 1. és 3. között van
-	(
-		A.x <= B.x && B.x <= C.x ||
-		C.x <= B.x && B.x <= A.x
-	) &&
-	(
-		A.y <= B.y && B.y <= C.y ||
-		C.y <= B.y && B.y <= A.y
-	)
 Konvex keresés
 	Háromszög: szélső pontokból
 		Háromszögön kívül
