@@ -230,6 +230,22 @@ int main() {
 }
 ```
 
+# int to string
+- ```c++
+  #include <string>
+  ```
+  ```c++
+  string s = to_string(187);
+  ```
+- ```c++
+  #include <sstream>
+  ```
+  ```c++
+  stringstream ss;
+  ss << 187;
+  string s = ss.str();
+  ```
+
 # Bultin classes
 [R] In depth function uses  
 ## Iterátorok
