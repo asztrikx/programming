@@ -1,6 +1,12 @@
 # Code
 ```c++
+vector<point> convexhull;
 void convexhullWeak() {
+	if (pointS.size() <= 2) {
+		convexhull = pointS;
+		return;
+	}
+
 	//A point from which all points are vertically (or horizontally) at one side
 	auto itMin = pointS.begin();
 	for (auto it = pointS.begin() + 1; it != pointS.end(); it++)	{
