@@ -10,10 +10,11 @@
 ## Korábbi megoldása
 - Megoldási idő figyelése
 - Előtte pár nappal
-# 2. Forduló
+# 2., 3. Forduló
 Ritka esetek
 - Feladat fordítva megoldva néha gyorsabb
 - Néha sorrendbe kell kiírni mégha nincs is leírva
+- Előbb érdemes mindegyik feldatot letölteni, majd átolvasni és utána gondolkdni és kódolni
 
 Segítség
 - Feladatleírás

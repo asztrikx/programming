@@ -20,3 +20,4 @@ ha tudnánk a választ akkor az a válasz lehetséges e
 
 # Problems
 1. mester.inf.elte.hu/Haladó/Dinamikus programozás/13. Egyenletes pakolás ⁎⁎
+2. mester.inf.elte.hu/NT, OKTV, IOI Válogató/IOI Válogató 2019/11. Csatornák  

@@ -32,7 +32,7 @@ void segmenttreeUpdate(int index, int value) {
 	segmenttreeUpdateRecursion(1, 0, numberS.size() - 1, index, value);
 }
 
-int segmenttreeSumRecurion(int node, int left, int right, int start, int end) {
+int segmenttreeSumRecursion(int node, int left, int right, int start, int end) {
 	if (start > end) {
 		return 0;
 	}
@@ -41,13 +41,13 @@ int segmenttreeSumRecurion(int node, int left, int right, int start, int end) {
 	}
 
 	int middle = (left + right) / 2;
-	int leftSum = segmenttreeSumRecurion(node * 2, left, middle, start, min(end, middle));
-	int rightSum = segmenttreeSumRecurion(node * 2 + 1, middle + 1, right, max(start, middle + 1), end);
+	int leftSum = segmenttreeSumRecursion(node * 2, left, middle, start, min(end, middle));
+	int rightSum = segmenttreeSumRecursion(node * 2 + 1, middle + 1, right, max(start, middle + 1), end);
 	return leftSum + rightSum;
 }
 
 int segmenttreeSum(int start, int end) {
-	return segmenttreeSumRecurion(1, 0, numberS.size() - 1, start, end);
+	return segmenttreeSumRecursion(1, 0, numberS.size() - 1, start, end);
 }
 
 void segmenttreeBuildRecursion(int node, int left, int right) {

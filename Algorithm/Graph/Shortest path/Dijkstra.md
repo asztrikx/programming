@@ -41,9 +41,9 @@ void dijkstra(int start) {
 		if (timeS[e.end] != -1) {
 			continue;
 		}
-
 		timeS[e.end] = e.weight;
 		parentS[e.end] = e.start;
+
 		for (auto ee : g[e.end]) {
 			if (timeS[ee.end] == -1) {
 				pq.push({ e.end , ee.end , timeS[e.end] + ee.weight });

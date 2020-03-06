@@ -1,6 +1,12 @@
 # Code
 ```c++
 bool intersect(line a, line b) {
+	if (
+		a.start == b.start || a.start == b.end ||
+		a.end == b.start || a.end == b.end
+	) {
+		return true;
+	}
 	if (between(a.start, a.end, b.start) || between(a.start, a.end, b.end)) {
 		return true;
 	}

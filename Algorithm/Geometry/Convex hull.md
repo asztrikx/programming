@@ -1,7 +1,8 @@
-# Code
+# Weak
+## Code
 ```c++
 vector<point> convexhull;
-void convexhullWeak() {
+void convexhullBuild() {
 	if (pointS.size() <= 2) {
 		convexhull = pointS;
 		return;
@@ -54,3 +55,6 @@ void convexhullWeak() {
 	}
 }
 ```
+# Strong
+## Code
+[R] TODO

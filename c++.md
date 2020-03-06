@@ -32,12 +32,13 @@ int main() {
 ```c++
 assert(a != 0);
 ```
-> Local testing messages
+
+> Local testing messages on Windows
 ```c++
 #ifdef _WIN32 
-#define iff if(true)
+#define dbg if(true)
 #else
-#define iff if(false)
+#define dbg if(false)
 #endif
 ```
 ```c++
@@ -131,7 +132,10 @@ int a[] = { 5, 4, 3 };
 ```
 
 # IO
-> Basic
+> Basic  
+[R] TODO ios_base::sync_with_stdio(false);?  
+[R] TODO ios::sync_with_stdio(false);?  
+[R] TODO cout.tie(nullptr)?  
 ```c++
 int main() {
 	cin.sync_with_stdio(false);
