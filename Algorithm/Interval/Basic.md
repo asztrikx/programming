@@ -3,4 +3,4 @@ array filled from a to b
 2 array: one containing the number of intervals that starts at i in i, vice versa with ends  
 
 # Problems
-1. mester.inf.elte.hu/Haladó/Sorozatok/13. Halak
+1. mester/Haladó/Sorozatok/13. Halak

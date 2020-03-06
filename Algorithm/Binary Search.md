@@ -19,5 +19,6 @@ ha tudnánk a választ akkor az a válasz lehetséges e
 - [R] TODO
 
 # Problems
-1. mester.inf.elte.hu/Haladó/Dinamikus programozás/13. Egyenletes pakolás ⁎⁎
-2. mester.inf.elte.hu/NT, OKTV, IOI Válogató/IOI Válogató 2019/11. Csatornák  
+1. mester/Haladó/Dinamikus programozás/13. Egyenletes pakolás ⁎⁎
+1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2019/11. Csatornák
+1. ncpc/2007/G Nested Dolls

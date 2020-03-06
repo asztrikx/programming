@@ -7,7 +7,9 @@
 1. > O(NlogN+M)
 2. > O(N^2logN+MN)
 
-if - edges convert to +
+if - edges convert to +  
+if max sum of edges is low we can use an array as priority queue  
+
 
 # Code
 ```c++
@@ -63,4 +65,4 @@ void dijkstraPath(int node) {
 ```
 
 # Problems
-1. ⊆ mester.inf.elte.hu/Haladó/Gráfok, legrövidebb utak/*
+1. ⊆ mester/Haladó/Gráfok, legrövidebb utak/*

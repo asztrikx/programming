@@ -6,4 +6,4 @@
 recursion
 
 # Problems
-1. mester.inf.elte.hu\NT, OKTV, IOI Válogató\IOI Válogató 2019\4. Lámpák
+1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2019/4. Lámpák

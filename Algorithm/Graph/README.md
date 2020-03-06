@@ -92,5 +92,5 @@ u->v
 
 # Trükkök
 csúcs sokszorozás  
-	1. mester.inf.elte.hu/NT, OKTV, IOI Válogató/IOI Válogató 2019/11. Csatornák  
-	2. mester.inf.elte.hu/NT, OKTV, IOI Válogató/OKTV 2018／2019 3. forduló/6. Vasútállomások
+	1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2019/11. Csatornák  
+	1. mester/NT, OKTV, IOI Válogató/OKTV 2018／2019 3. forduló/6. Vasútállomások

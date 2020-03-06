@@ -63,4 +63,4 @@ void bfsPathto(int node) {
 ```
 
 # Problems
-1. ⊆ mester.inf.elte.hu/Haladó/Gráfok, legrövidebb utak/*
+1. ⊆ mester/Haladó/Gráfok, legrövidebb utak/*
