@@ -50,16 +50,16 @@ int segmenttreeSum(int start, int end) {
 	return segmenttreeSumRecurion(1, 0, numberS.size() - 1, start, end);
 }
 
-void segmenttreeBuildRecursion(int root, int left, int right) {
+void segmenttreeBuildRecursion(int node, int left, int right) {
 	if (left == right) {
-		segmenttree[root] = numberS[left];
+		segmenttree[node] = numberS[left];
 		return;
 	}
 
 	int middle = (left + right) / 2;
-	segmenttreeBuildRecursion(root * 2, left, middle);
-	segmenttreeBuildRecursion(root * 2 + 1, middle + 1, right);
-	segmenttree[root] = segmenttree[root * 2] + segmenttree[root * 2 + 1];
+	segmenttreeBuildRecursion(node * 2, left, middle);
+	segmenttreeBuildRecursion(node * 2 + 1, middle + 1, right);
+	segmenttree[node] = segmenttree[node * 2] + segmenttree[node * 2 + 1];
 }
 
 void segmenttreeBuild() {
