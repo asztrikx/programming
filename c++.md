@@ -363,7 +363,7 @@ struct point {
 | pop_back   | 1    |
 | pop_front  | 1    |
 ## `map`
-> Associative array
+> Associative array  
 > Elem deklarálás: `m["foo"] = m["foo"]`  
 > Iterátor `pair<,>`-t ad vissza  
 
