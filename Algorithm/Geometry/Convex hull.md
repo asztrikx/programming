@@ -10,7 +10,7 @@ void convexhullBuild() {
 
 	//A point from which all points are vertically (or horizontally) at one side
 	auto itMin = pointS.begin();
-	for (auto it = pointS.begin() + 1; it != pointS.end(); it++)	{
+	for (auto it = pointS.begin() + 1; it != pointS.end(); it++) {
 		if (
 			itMin->x > it->x ||
 			itMin->x == it->x && itMin->y > it->y
