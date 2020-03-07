@@ -42,7 +42,7 @@ assert(a != 0);
 #endif
 ```
 ```c++
-iff cout << "This happened" << endl;
+dbg cout << "This happened" << endl;
 ```
 
 # Data types
