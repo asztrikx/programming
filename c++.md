@@ -63,7 +63,7 @@ dbg cout << "This happened" << endl;
 				#define ll long long
 				```
 				```
-				ll a = 1 << 60;
+				ll a = 1LL << 60;
 				```
 		- Based on range
             - |           Syntax           |            Range            |
