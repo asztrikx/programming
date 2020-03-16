@@ -1,7 +1,7 @@
 # Problem
 > Dividing large numbers causes overflow?  
 # Fermat's Little Theorem
-> a^(p - 1) ≡ 1
+> a^(p - 1) ≡ 1 where p is prime
 
 # Thesis
 > Let `p be a positive prime number`  
