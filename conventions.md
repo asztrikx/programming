@@ -1,5 +1,5 @@
 # Coding
-  ## Use camalCase
+  ## Use camelCase
   > The matter is that the codes should not be different for the ease of reading  
   > It can be better as it creates shorter variable names  
   ## Do not shorten calculations
