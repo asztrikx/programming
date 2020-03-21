@@ -61,6 +61,7 @@
 - prefix
 - infix
 - infós füzetek
+- összes út pl dijkstra
 
 # Ábrázolás
 ## Csúcsmátrix

@@ -13,3 +13,7 @@ max flow=min cut
 Rekurzió jó lehet javarészt
 
 direction array (4)
+
+circular array  
+	- modulo  
+	- push items again into array
