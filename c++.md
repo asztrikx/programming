@@ -36,13 +36,13 @@ assert(a != 0);
 > Local testing messages on Windows
 ```c++
 #ifdef _WIN32 
-#define dbg if(true)
+#define dbg if(true) cout <<
 #else
-#define dbg if(false)
+#define dbg if(false) cout <<
 #endif
 ```
 ```c++
-dbg cout << "This happened" << endl;
+dbg "This happened" << endl;
 ```
 
 # Data types
