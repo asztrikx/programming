@@ -28,6 +28,8 @@ Project > Add files... > Select > Ok
 - Debugging windows
 	- Watches: `true`
 	- Call stack: `true`
+- Error messages are the most time incorrect
+- No error message, but code breaks in an std file -> Runtime Error
 # Shortcuts
 http://wiki.codeblocks.org/index.php?title=Keyboard_Shortcuts
 
