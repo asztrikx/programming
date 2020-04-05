@@ -22,11 +22,15 @@
 - After `if`, `while`, `for`, `forr`, `struct`, `class` press `tab` twice
 # Debug
 [R] TODO
-# Error List
-- Error	MSB6006	"CL.exe" exited with code 2.
-  - Check Output for real error message
-- No error message
-  - Rebuild project
+# Bugs
+  - Error List
+    - Error	MSB6006	"CL.exe" exited with code 2.
+      - Check Output for real error message
+    - No error message
+      - Rebuild project
+  - Code hangs when cout called
+    - Press a key in console
+    - Rebuild project? (permanently solves)
 # Call Stack
 # Break point
 - If code does not stop at breakpoint/It repositions itself after run, then create a new project

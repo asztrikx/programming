@@ -223,11 +223,7 @@ int main() {
 	cin.sync_with_stdio(false);
 	cin.tie(nullptr);
 
-	//Input
-
-	//Process
-
-	//Output
+	
 
 	cout << endl;
 	return 0;
