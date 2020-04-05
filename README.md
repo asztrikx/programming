@@ -92,6 +92,7 @@
 		- 2 Facebook
 		- 1 Slack
 		- 1 Messenger
+		- 1 Discord
 - [Elte szakkör](http://tehetseg.inf.elte.hu/szakkorok.html)
 - [BME egyetemi verseny (ACM) felkészítő szakkör](http://cs.bme.hu/acm)
 
