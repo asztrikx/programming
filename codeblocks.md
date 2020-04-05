@@ -28,8 +28,10 @@ Project > Add files... > Select > Ok
 - Debugging windows
 	- Watches: `true`
 	- Call stack: `true`
-- Error messages are the most time incorrect
-- No error message, but code breaks in an std file -> Runtime Error
+- Error messages most of the time are incorrect
+- If there are no error message, but code breaks in an std file
+	- Runtime Error
+	- Use `step out` to arrive back to a line in your code, which caused the error
 # Shortcuts
 http://wiki.codeblocks.org/index.php?title=Keyboard_Shortcuts
 
