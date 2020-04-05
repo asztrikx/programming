@@ -11,6 +11,7 @@
 - Megoldási idő figyelése
 - Előtte pár nappal
 # 2., 3. Forduló
+UTF-8 not allowed  
 Ritka esetek
 - Feladat fordítva megoldva néha gyorsabb
 - Néha sorrendbe kell kiírni mégha nincs is leírva
