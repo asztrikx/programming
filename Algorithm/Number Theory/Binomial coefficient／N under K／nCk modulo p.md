@@ -66,3 +66,6 @@ long long ncr(int n, int r) {
     return n * quickpow(r * nr % p, p - 2);
 }
 ```
+
+# Thesis
+1. https://en.wikipedia.org/wiki/Hockey-stick_identity
