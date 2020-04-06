@@ -70,3 +70,7 @@ void segmenttreeBuild() {
 
 # Problems
 1. https://cp-algorithms.com/data_structures/segment_tree.html
+1. https://codeforces.com/problemset/problem/339/D
+1. https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3977
+1. https://codeforces.com/problemset/problem/555/C
+1. https://codeforces.com/problemset/problem/474/F
