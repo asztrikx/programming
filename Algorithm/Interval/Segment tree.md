@@ -1,5 +1,6 @@
 # Thesis
 1. https://cp-algorithms.com/data_structures/segment_tree.html
+1. https://codeforces.com/blog/entry/18051
 
 # Code
 ```c++
