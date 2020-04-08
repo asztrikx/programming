@@ -1,12 +1,5 @@
 # Thesis
-- [R] TODO
-can be used to calc sum, min, max
-
-# Proof
-- [R] TODO
-
-# Example
-- [R] TODO
+https://cp-algorithms.com/data_structures/segment_tree.html
 
 # Code
 ```c++
@@ -69,7 +62,6 @@ void segmenttreeBuild() {
 ```
 
 # Problems
-1. https://cp-algorithms.com/data_structures/segment_tree.html
 1. https://codeforces.com/problemset/problem/339/D
 1. https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3977
 1. https://codeforces.com/problemset/problem/555/C
