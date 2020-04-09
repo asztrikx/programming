@@ -5,7 +5,7 @@
 # Tricks
 1. We can omit `build()` and use `update()` for building segment tree. It will cause extra O(N*logN) time.
 
-# Code
+# Code - Sum
 [R] Range update, query on some cases (add&max, setall&sum, ...) , lazy prop. (Adding on segments, querying for maximum)
 ```c++
 vector<int> numberS /*= { -4,2,47,-8 }*/;
@@ -13,7 +13,7 @@ vector<int> segmenttree;
 
 void segmenttreeUpdateRecursion(int node, int left, int right, int index, int value) {
 	if (left == right) {
-		segmenttree[node] = value;
+		segmenttree[node] = value;//
 		return;
 	}
 
@@ -23,7 +23,7 @@ void segmenttreeUpdateRecursion(int node, int left, int right, int index, int va
 	} else {
 		segmenttreeUpdateRecursion(node * 2 + 1, middle + 1, right, index, value);
 	}
-	segmenttree[node] = segmenttree[node * 2] + segmenttree[node * 2 + 1];
+	segmenttree[node] = segmenttree[node * 2] + segmenttree[node * 2 + 1];//
 }
 
 void segmenttreeUpdate(int index, int value) {
@@ -32,7 +32,7 @@ void segmenttreeUpdate(int index, int value) {
 
 int segmenttreeSumRecursion(int node, int left, int right, int start, int end) {
 	if (start > end) {
-		return 0;
+		return 0;//
 	}
 	if (left == start && right == end) {
 		return segmenttree[node];
@@ -41,7 +41,7 @@ int segmenttreeSumRecursion(int node, int left, int right, int start, int end) {
 	int middle = (left + right) / 2;
 	int leftSum = segmenttreeSumRecursion(node * 2, left, middle, start, min(end, middle));
 	int rightSum = segmenttreeSumRecursion(node * 2 + 1, middle + 1, right, max(start, middle + 1), end);
-	return leftSum + rightSum;
+	return leftSum + rightSum;//
 }
 
 int segmenttreeSum(int start, int end) {
@@ -50,14 +50,14 @@ int segmenttreeSum(int start, int end) {
 
 void segmenttreeBuildRecursion(int node, int left, int right) {
 	if (left == right) {
-		segmenttree[node] = numberS[left];
+		segmenttree[node] = numberS[left];//
 		return;
 	}
 
 	int middle = (left + right) / 2;
 	segmenttreeBuildRecursion(node * 2, left, middle);
 	segmenttreeBuildRecursion(node * 2 + 1, middle + 1, right);
-	segmenttree[node] = segmenttree[node * 2] + segmenttree[node * 2 + 1];
+	segmenttree[node] = segmenttree[node * 2] + segmenttree[node * 2 + 1];//
 }
 
 void segmenttreeBuild() {
