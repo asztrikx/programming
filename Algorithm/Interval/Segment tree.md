@@ -2,7 +2,11 @@
 1. https://cp-algorithms.com/data_structures/segment_tree.html
 1. https://codeforces.com/blog/entry/18051
 
+# Tricks
+1. We can omit `build()` and use `update()` for building segment tree. It will cause extra O(N*logN) time.
+
 # Code
+[R] Range update, query on some cases (add&max, setall&sum, ...) , lazy prop. (Adding on segments, querying for maximum)
 ```c++
 vector<int> numberS /*= { -4,2,47,-8 }*/;
 vector<int> segmenttree;
@@ -66,4 +70,8 @@ void segmenttreeBuild() {
 1. https://codeforces.com/problemset/problem/339/D
 1. https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3977
 1. https://codeforces.com/problemset/problem/555/C
+1. https://codeforces.com/problemset/problem/474/F
+1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2018/15. Átfedő intervallumok
+1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2019/18. Fantasztikus feladat
+1. https://codeforces.com/contest/1208/problem/D
 1. https://codeforces.com/problemset/problem/474/F
