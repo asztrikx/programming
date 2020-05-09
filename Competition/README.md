@@ -36,4 +36,5 @@
   - Might help you to solve the whole task
   - You also get points for them
 - PDF might have 2 pages
-
+- Slower O() might work because of good inputs (e.g. A loop might jump back to previous index causing O(N^2) but works)
+  - mester/NT, OKTV, IOI Válogató/IOI Válogató 2018/4. Leggyorsabb szállítás
