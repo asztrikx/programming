@@ -22,3 +22,4 @@ ha tudnánk a választ akkor az a válasz lehetséges e
 1. mester/Haladó/Dinamikus programozás/13. Egyenletes pakolás ⁎⁎
 1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2019/11. Csatornák
 1. ncpc/2007/G Nested Dolls
+1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2018/5. Sűrű részsorozat
