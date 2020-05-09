@@ -31,3 +31,9 @@
 - First have a solution on paper
 - Read all task and solve them before programming
 - If a task asks for minimum value and minimum value of making that aforementioned value, then you can divide the task by first calulating the first minimum. Then based upon that you might be able to calculate the minimum of making that value (e.g. by binary search).
+- Check input limits to assume a set of algorithms that will work
+- Check test cases
+  - Might help you to solve the whole task
+  - You also get points for them
+- PDF might have 2 pages
+
