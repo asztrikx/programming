@@ -1,5 +1,5 @@
 # Thesis
-- [R] TODO: same as recursion
+- [R] TODO: same as recursion, but: no stackoverflow(in c++ it is not a problem), memory reduction (formula only uses previous state, or the last state can be overwritten(floyd))
 - https://www.geeksforgeeks.org/overlapping-subproblems-property-in-dynamic-programming-dp-1/
 [R] TODO
 DP kérdések, amik irányában érdemes elindulni:
@@ -27,4 +27,5 @@ F) A kimenet rendezett? N -> logN optimalizációt enged esetleg?
 ```
 
 # Problems
+1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2018/7. Találkozó
 1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2018/10. Vásárlások
