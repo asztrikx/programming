@@ -32,6 +32,13 @@ Project > Add files... > Select > Ok
 - If there are no error message, but code breaks in an std file
 	- Runtime Error
 	- Use `step out` to arrive back to a line in your code, which caused the error
+# Structure
+```c++
+#define _GLIBCXX_DEBUG //must be here
+#include <bits/stdc++.h>
+
+usin...
+```
 # Shortcuts
 http://wiki.codeblocks.org/index.php?title=Keyboard_Shortcuts
 
