@@ -18,8 +18,8 @@
 | Codechef                  |         | Egyéni      | Gyakorló | Középiskola           | [Link](https://www.codechef.com/)                                                                     |
 | ICPC                      | ✓       | ?           | Éles     | Egyetem               | [Link](https://icpc.baylor.edu/)                                                                      |
 | ZeroToHero                |         | Egyéni      | Éles     | Középiskola - Egyetem | [Link](http://www.zerotohero.hu/)                                                                     |
-> \* Olimpiai válogatóra meghívást biztosíthat (IOI, CEOI)  
-> http://tehetseg.inf.elte.hu/valogatok/valogatok_main.html#resztvevok
+> \* Olimpiai válogatóra meghívást biztosíthat (IOI, CEOI). **Ott csak c++ és codeblocks használható**  
+> http://tehetseg.inf.elte.hu/valogatok/valogatok_main.html#resztvevok  
 
 > [Google Calendar, sajátunkhoz adjuk hozzá](https://calendar.google.com/calendar/embed?title=Tanulm%C3%A1nyi+versenyek&wkst=2&bgcolor=%23FFFFFF&src=ss881teo41uk82ir2g5p4bk6l0@group.calendar.google.com&color=%23182C57&src=rsd5iorkti3b2fuclehukn95s0@group.calendar.google.com&color=%23B1440E&src=omhgl1n9epdsefcu087cqouie0@group.calendar.google.com&color=%2342104A&src=hu.hungarian%23holiday@group.v.calendar.google.com&color=%23125A12&ctz=Europe/Budapest&hl=hu)
 
