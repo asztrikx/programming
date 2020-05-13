@@ -151,6 +151,8 @@ int main() {
 	return 0;
 }
 ```
+> If output is too large replace `endl` with `'\n'` (it does not flushes)  
+> e.g. mester/NT, OKTV, IOI Válogató/IOI Válogató 2018/11. Telephelyek  
 
 > Fastest, usually not needed  
 > For local tests on Windows use: `getchar();`  
