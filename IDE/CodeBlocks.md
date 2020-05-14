@@ -1,5 +1,6 @@
 # Download
 codeblocks-17.12mingw-setup.exe
+
 # Settings
 - Compiler
 	- Selected compiler: `GNU GCC Compiler`
@@ -22,8 +23,12 @@ codeblocks-17.12mingw-setup.exe
 		- Use TAB character: `true`
 	- Code completion //Ha nem megy az autocomplete
 		- Disable SmartSense: `true`
+
+# No UTF-8 in any path
+
 # .h és .cpp hozzáadása
 Project > Add files... > Select > Ok
+
 # Debug
 - Debugging windows
 	- Watches: `true`
@@ -32,13 +37,7 @@ Project > Add files... > Select > Ok
 - If there are no error message, but code breaks in an std file
 	- Runtime Error
 	- Use `step out` to arrive back to a line in your code, which caused the error
-# Structure
-```c++
-#define _GLIBCXX_DEBUG //must be here
-#include <bits/stdc++.h>
 
-usin...
-```
 # Shortcuts
 http://wiki.codeblocks.org/index.php?title=Keyboard_Shortcuts
 
@@ -52,7 +51,7 @@ http://wiki.codeblocks.org/index.php?title=Keyboard_Shortcuts
 | Step into     | Shift+F7      |
 | Step out      | Ctrl+Shift+F7 |
 | Run to cursor | F4            |
-# No UTF-8
+
 # Uninstall
 - Windows  
 	- `uninstaller`  
