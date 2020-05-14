@@ -40,5 +40,3 @@
 # Folder
   //[R] TODO (1_cpp.cpp)
   //[R] Clone mester
-# Math
-> log = log2  
