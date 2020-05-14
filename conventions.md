@@ -19,8 +19,6 @@
   vector<vector<int>> matrix;
   vector<vector<int>> graph;
   ```
-  ## Segmentation
-  //[R] TODO (Input, out-, process)
   ## Use `,` even after the last item in a listing
   > On a multiline listing it's easy to miss out the line ending `,`  
   ```c++
