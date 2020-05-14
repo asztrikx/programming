@@ -1,12 +1,12 @@
 # Definitions
-- `array` = `ordered set`
+- `vector`
 	> First element's index is 0  
 	> Every other element's index is the one before it + 1  
 	> Notation of indexed array `Ai`.
 	- A0
 	- Ai
 	- A(i + 1)
-- `vector` = `array`
+- `array` = `vector`
 - `subsequence`
 	> Let `A` be the `array`  
 	> Let `SS` be the `subsequence`  
@@ -31,6 +31,7 @@
 	SA = (1, 3) //Error
 	SA = (4, 3) //Error
 	```
+- `log` = `log2`
 
 # Források
 - codeforces.com problem editorials
