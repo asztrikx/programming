@@ -124,11 +124,12 @@ p = &b; //Error
 ```
 
 # Array
-> [R] TODO what is it  
-> Only use if vector would be redeclared many times  
+> Fixed size vector
 ```c++
-int b[6];
-int a[] = { 5, 4, 3 };
+#include <array>
+```
+```c++
+array<type, size> a;
 ```
 
 # IO
