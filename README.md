@@ -83,6 +83,10 @@
 - https://ncpc.idi.ntnu.no/
 - https://projecteuler.net/
 
+# Tools
+- Google Jamboard
+- codeinterview.io
+
 # Szakkörök
 - Fazekas szakkör
 	> Időpont választás szeptemberben szavazás alapján  
