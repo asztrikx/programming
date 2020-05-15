@@ -4,6 +4,7 @@
 # Classes
 > M = 1.000.000  
 > K = 1.000  
+
 |    Big O notation    | Time  | Input Limit/s |
 | -------------------- | ----- | ------------- |
 | Constant             | 1     | -             |
