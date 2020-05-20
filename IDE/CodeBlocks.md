@@ -2,6 +2,8 @@
 codeblocks-17.12mingw-setup.exe
 
 # Settings
+- Environment > General settings
+	- Terminal to launch console programs on: //your installed gui terminal
 - Compiler
 	- Selected compiler: `GNU GCC Compiler`
 	- Compiler settings > Compiler flags
