@@ -92,6 +92,6 @@ u->v
 | Faél      | u<v    | u>v       |
 
 # Trükkök
-csúcs sokszorozás  
-	1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2019/11. Csatornák  
-	1. mester/NT, OKTV, IOI Válogató/OKTV 2018／2019 3. forduló/6. Vasútállomások
+- csúcs sokszorozás  
+	1. [mester/NT, OKTV, IOI Válogató/IOI Válogató 2019/11. Csatornák](https://github.com/asztrikx/mester-linux/blob/master/NT%2C%20OKTV%2C%20IOI%20V%C3%A1logat%C3%B3/IOI%20V%C3%A1logat%C3%B3%202019/11.%20Csatorn%C3%A1k%20%20%20%20__-100) (részleges pontszám/feladat.pdf)
+	1. [mester/NT, OKTV, IOI Válogató/OKTV 2018 ∕ 19 3. forduló/6. Vasútállomások (30 pont)](https://github.com/asztrikx/mester-linux/blob/master/NT%2C%20OKTV%2C%20IOI%20V%C3%A1logat%C3%B3/OKTV%202018%20%E2%88%95%2019%203.%20fordul%C3%B3/6.%20Vas%C3%BAt%C3%A1llom%C3%A1sok%20(30%20pont)%20%20%20%20__-30/feladat.pdf)

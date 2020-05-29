@@ -55,4 +55,4 @@ void mergesort(int start, int end) {
 ```
 
 # Problems
-1. mester/NT, OKTV, IOI Válogató/Nemes Tihamér Online 2018／2019 1. forduló/2. Középső életkorú
+1. [mester/NT, OKTV, IOI Válogató/NT Online 2018 ∕ 19 1. forduló/2. Középső életkorú](https://github.com/asztrikx/mester-linux/blob/master/NT%2C%20OKTV%2C%20IOI%20V%C3%A1logat%C3%B3/NT%20Online%202018%20%E2%88%95%2019%201.%20fordul%C3%B3/2.%20K%C3%B6z%C3%A9ps%C5%91%20%C3%A9letkor%C3%BA%20%20%20%20__-100/feladat.pdf)

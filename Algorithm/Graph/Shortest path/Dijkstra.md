@@ -66,4 +66,4 @@ void dijkstraPath(int node) {
 
 # Problems
 1. ⊆ mester/Haladó/Gráfok, legrövidebb utak/*
-1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2018/4. Leggyorsabb szállítás
+1. [mester/NT, OKTV, IOI Válogató/IOI Válogató 2018/4. Leggyorsabb szállítás](https://github.com/asztrikx/mester-linux/blob/master/NT%2C%20OKTV%2C%20IOI%20V%C3%A1logat%C3%B3/IOI%20V%C3%A1logat%C3%B3%202018/4.%20Leggyorsabb%20sz%C3%A1ll%C3%ADt%C3%A1s%20%20%20%20__-100/feladat.pdf)

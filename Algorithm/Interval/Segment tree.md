@@ -71,7 +71,7 @@ void segmenttreeBuild() {
 1. https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3977
 1. https://codeforces.com/problemset/problem/555/C
 1. https://codeforces.com/problemset/problem/474/F
-1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2018/15. Átfedő intervallumok
-1. mester/NT, OKTV, IOI Válogató/IOI Válogató 2019/18. Fantasztikus feladat
+1. [mester/NT, OKTV, IOI Válogató/IOI Válogató 2018/15. Átfedő intervallumok](https://github.com/asztrikx/mester-linux/blob/master/NT%2C%20OKTV%2C%20IOI%20V%C3%A1logat%C3%B3/IOI%20V%C3%A1logat%C3%B3%202018/15.%20%C3%81tfed%C5%91%20intervallumok%20%20%20%20__-100/feladat.pdf)
+1. [mester/NT, OKTV, IOI Válogató/IOI Válogató 2019/18. Fantasztikus feladat](https://github.com/asztrikx/mester-linux/blob/master/NT%2C%20OKTV%2C%20IOI%20V%C3%A1logat%C3%B3/IOI%20V%C3%A1logat%C3%B3%202019/18.%20Fantasztikus%20feladat%20%20%20%20__-100/feladat.pdf)
 1. https://codeforces.com/contest/1208/problem/D
 1. https://codeforces.com/problemset/problem/474/F
