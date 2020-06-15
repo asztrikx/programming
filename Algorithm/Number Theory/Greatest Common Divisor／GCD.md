@@ -1,4 +1,5 @@
 # Thesis
+> Let `a` > `b`  
 > To calculate gcd(a, b) call gcd(b, a % b) until b is zero  
 > The result will be in `a`  
 # Proof
