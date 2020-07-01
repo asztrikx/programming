@@ -23,3 +23,4 @@ ha tudnánk a választ akkor az a válasz lehetséges e
 1. [mester/NT, OKTV, IOI Válogató/IOI Válogató 2019/11. Csatornák](https://github.com/asztrikx/mester-linux/blob/master/NT%2C%20OKTV%2C%20IOI%20V%C3%A1logat%C3%B3/IOI%20V%C3%A1logat%C3%B3%202019/11.%20Csatorn%C3%A1k%20%20%20%20__-100/feladat.pdf)
 1. ncpc/2007/G Nested Dolls
 1. [mester/NT, OKTV, IOI Válogató/IOI Válogató 2018/5. Sűrű részsorozat](https://github.com/asztrikx/mester-linux/blob/master/NT%2C%20OKTV%2C%20IOI%20V%C3%A1logat%C3%B3/IOI%20V%C3%A1logat%C3%B3%202018/5.%20S%C5%B1r%C5%B1%20r%C3%A9szsorozat%20%20%20%20__-100/feladat.pdf)
+1. [mester/NT, OKTV, IOI Válogató/IOI Válogató 2017/11. Biztonságos leszállás](https://github.com/asztrikx/mester-linux/blob/master/NT%2C%20OKTV%2C%20IOI%20V%C3%A1logat%C3%B3/IOI%20V%C3%A1logat%C3%B3%202017/11.%20Biztons%C3%A1gos%20lesz%C3%A1ll%C3%A1s%20%20%20%20__-100/feladat.pdf)
