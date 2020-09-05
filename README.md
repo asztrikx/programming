@@ -62,6 +62,7 @@
 - geeksforgeeks.org
 - info.berzsenyi.hu/szakkoeroek/algoritmus-szakkoer
 - e-maxx.ru/algo/
+- infoc.eet.bme.hu/
 
 # Feladatbankok
 - codeforces.com
