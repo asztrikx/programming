@@ -13,6 +13,7 @@ codeblocks-17.12mingw-setup.exe
 			- %-Wall%: `true`
 			- %-Weffc++%: `true`
 			- %-Wextra: `true`
+			- %-pedantic: `true`
 	- Other compiler options
 		- `-fsanitize=undefined`
 		- `-fsanitize-undefined-trap-on-error`
