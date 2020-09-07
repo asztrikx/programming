@@ -6,17 +6,20 @@ codeblocks-17.12mingw-setup.exe
 	- Terminal to launch console programs on: //your installed gui terminal
 - Compiler
 	- Selected compiler: `GNU GCC Compiler`
-	- Compiler settings > Compiler flags
-		- General
-			- %C++11%: `true`
-		- Warnings
-			- %-Wall%: `true`
-			- %-Weffc++%: `true`
-			- %-Wextra: `true`
-			- %-pedantic: `true`
-	- Other compiler options
-		- `-fsanitize=undefined`
-		- `-fsanitize-undefined-trap-on-error`
+	- Compiler settings
+		- Compiler flags
+			- General
+				- %C++11%: `true`
+			- Warnings
+				- %-Wall%: `true`
+				- %-Weffc++%: `true`
+				- %-Wextra: `true`
+				- %-pedantic: `true`
+		- Other compiler options
+			- `-fsanitize=undefined`
+			- `-fsanitize-undefined-trap-on-error`
+	- Linker settings
+		- Add: m
 - Debugger > GDB/CDB debugger > Default
 	- Executable path: `Find`
 	- Disable startup scripts (-nx) (GDB only): `false`
