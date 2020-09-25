@@ -16,3 +16,4 @@ Az adatokat lehet-e úgy manipulálni, hogy a rendezés megváltozzon, de a fela
 1. [mester/Haladó/Mohó algoritmusok/32. Munkák](https://github.com/asztrikx/mester-linux/blob/master/Halad%C3%B3/Moh%C3%B3%20algoritmusok/32.%20Munk%C3%A1k%20**/feladat.pdf)
 1. [Codeforces/1276A - As Simple as One and Two](https://codeforces.com/problemset/problem/1276/A)
 1. [Codeforces/1286A - Garland](https://codeforces.com/contest/1286/problem/A)
+1. [Codeforces/1181C - Flag](https://codeforces.com/problemset/problem/1181/C)
