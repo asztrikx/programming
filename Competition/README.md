@@ -17,7 +17,7 @@
 | Codeforces                |         | Egyéni      | Gyakorló | Középiskola           | [Link](https://codeforces.com/)                                                                       |
 | Codechef                  |         | Egyéni      | Gyakorló | Középiskola           | [Link](https://www.codechef.com/)                                                                     |
 | ICPC                      | ✓       | ?           | Éles     | Egyetem               | [Link](https://icpc.baylor.edu/)                                                                      |
-| ZeroToHero                |         | Egyéni      | Éles     | Középiskola - Egyetem | [Link](http://www.zerotohero.hu/)                                                                     |
+| ZeroToHero                |         | Egyéni      | Éles     | 18 - 26               | [Link](http://www.zerotohero.hu/)                                                                     |
 > \* Olimpiai válogatóra meghívást biztosíthat (IOI, CEOI). **Ott csak c++ és codeblocks használható**  
 > http://tehetseg.inf.elte.hu/valogatok/valogatok_main.html#resztvevok  
 

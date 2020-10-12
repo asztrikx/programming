@@ -40,6 +40,7 @@
 - https://github.com/radl97/algo-help
 - https://github.com/lezsakdomi
 - tamop412.elte.hu/tananyagok/algoritmusok
+- [OKTV informális témaköre](https://github.com/niklaci/NT-Syllabus/blob/master/NT-sillabusz.pdf)
 - cplusplus.org
 - ntibi.web.elte.hu
 - nemes.inf.elte.hu
@@ -62,6 +63,7 @@
 - geeksforgeeks.org
 - info.berzsenyi.hu/szakkoeroek/algoritmus-szakkoer
 - e-maxx.ru/algo/
+- infoc.eet.bme.hu/
 
 # Feladatbankok
 - codeforces.com
