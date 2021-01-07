@@ -15,7 +15,8 @@ UTF-8 not allowed
 Ritka esetek
 - Feladat fordítva megoldva néha gyorsabb
 - Néha sorrendbe kell kiírni mégha nincs is leírva
-- Előbb érdemes mindegyik feldatot letölteni, majd átolvasni és utána gondolkdni és kódolni
+- Előbb érdemes mindegyik feldatot átolvasni és utána gondolkodni és kódolni
+- Minden feladatot és mintabemenetet a verseny kezdetekor érdemes letölteni, mert az oldal halt már meg verseny közben
 
 Segítség
 - Feladatleírás
