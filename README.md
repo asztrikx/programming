@@ -104,4 +104,4 @@
 - [BME egyetemi verseny (ACM) felkészítő szakkör](http://cs.bme.hu/acm)
 
 # Tábor
-- Nyári ELTE-s? tehetség gondozó tábor matekos alapokkal
+- [ELTE](https://agondolkodasorome.hu/2021/04/30/felhivas-progtabor-8-9-osztalyos-diakoknak/)
