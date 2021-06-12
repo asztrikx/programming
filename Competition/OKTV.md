@@ -15,18 +15,21 @@ UTF-8 not allowed
 Ritka esetek
 - Feladat fordítva megoldva néha gyorsabb
 - Néha sorrendbe kell kiírni mégha nincs is leírva
-- Előbb érdemes mindegyik feldatot átolvasni és utána gondolkodni és kódolni
 - Minden feladatot és mintabemenetet a verseny kezdetekor érdemes letölteni, mert az oldal halt már meg verseny közben
+- PDF néha átcsúszik 2 oldalra
 
 Segítség
 - Feladatleírás
-- Futásidő
+- Input limitek alapján maximum futásidő, ezzel lehetséges algoritmusok megállapíthatóak
+- Check input limits to assume a set of algorithms that will work
 - Részfeladatok (Pontozás bekezdés)
+  - Segíthetnek elindulni
+- Előbb érdemes mindegyik feldatot átolvasni és utána gondolkodni és kódolni
 
 # Tippek
 Idei még fel nem rakott fordulók fent lehetnek [njudge.hu](https://njudge.hu)
 
-# Helyezettek
+# Helyezettek (web.archive.org)
 https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2002_2003helyezettek  
 https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2003_2004helyezettek  
 https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/eredmenyek/2004_2005helyezettek  

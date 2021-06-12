@@ -1,3 +1,3 @@
-rx7
-nikl
-leita
+- [Radnai László](https://github.com/radl97)
+- [Nikházy László](https://github.com/niklaci?tab=repositories)
+- [Leitereg András](https://github.com/leanil)

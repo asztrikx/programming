@@ -40,7 +40,3 @@ vector<int> a = {
 	2,
 };
 ```
-
-# Folder
-  //[R] TODO (1_cpp.cpp)
-  //[R] Clone mester

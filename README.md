@@ -1,38 +1,3 @@
-# Definitions
-- `vector`
-	> First element's index is 0  
-	> Every other element's index is the one before it + 1  
-	> Notation of indexed array `Ai`.
-	- A0
-	- Ai
-	- A(i + 1)
-- `array` = `vector`
-- `subsequence`
-	> Let `A` be the `array`  
-	> Let `SS` be the `subsequence`  
-	> `Index of SSi` in A is `smaller than SS(i + 1)`'s  
-	```
-	A = (1, 2, 3, 4)
-	SS = (1, 2, 3, 4)
-	SS = (1, 2, 3)
-	SS = (1, 3)
-	SS = (4, 3) //Error
-	```
-- `subarray`
-	> Let `A` be the `array`  
-	> Let `SA` be the `subarray`  
-	> `SA0` can be any value of A  
-	> `Index of SAi` (i > 0) in A `is` the `index of SA(i - 1)` in A `+ 1`   
-	```
-	A = (1, 2, 3, 4)
-	SA = (1, 2, 3, 4)
-	SA = (1, 2, 3)
-	SA = (3, 4)
-	SA = (1, 3) //Error
-	SA = (4, 3) //Error
-	```
-- `log` = `log2`
-
 # Források
 - codeforces.com problem editorials
 - [RX7 Algoritmusok](https://docs.google.com/spreadsheets/u/0/d/11rxrE6mvNq-NfnbyX0-EGrF9vtyuSgEEBFMo1J3XM6U/htmlview)
@@ -106,3 +71,10 @@
 # Tábor
 - [ELTE](https://agondolkodasorome.hu/2021/04/30/felhivas-progtabor-8-9-osztalyos-diakoknak/)
 - [?](https://weiszago.wixsite.com/programozas)
+
+# Definitions
+- `vector`
+- `array` = `vector`
+- `subsequence`
+- `subarray`
+- `log` = `log2`

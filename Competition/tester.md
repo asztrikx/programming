@@ -11,5 +11,3 @@ for /L %%i in (1,1,99) do (
 )
 pause
 ```
-## Linux
-[R]TODO
