@@ -1,4 +1,4 @@
-# Versenyek, Feladatbankok
+# Versenyek
 |            Név            | Csapat? | Jelentkezés |  Típus   |      Korcsoport       |                                                 Link                                                  |
 | ------------------------- | ------- | ----------- | -------- | --------------------- | ----------------------------------------------------------------------------------------------------- |
 | OKTV*                     |         | Iskolai     | Éles     | Középiskola           | [Link](https://www.oktatas.hu/kozneveles/tanulmanyi_versenyek/oktv_kereteben/aktualis_versenyidoszak) |
@@ -23,6 +23,66 @@
 
 > [Google Calendar, sajátunkhoz adjuk hozzá](https://calendar.google.com/calendar/embed?title=Tanulm%C3%A1nyi+versenyek&wkst=2&bgcolor=%23FFFFFF&src=ss881teo41uk82ir2g5p4bk6l0@group.calendar.google.com&color=%23182C57&src=rsd5iorkti3b2fuclehukn95s0@group.calendar.google.com&color=%23B1440E&src=omhgl1n9epdsefcu087cqouie0@group.calendar.google.com&color=%2342104A&src=hu.hungarian%23holiday@group.v.calendar.google.com&color=%23125A12&ctz=Europe/Budapest&hl=hu)
 
-> OKTV/Nemes:  
-> [Jelenleg nem hivatalos témakörök](https://github.com/niklaci/NT-Syllabus)  
-> [oktatas.hu:](oktatas.hu) régi feladatok, feladatok, feladat megoldások  
+# Források
+- [OKTV, Nemes informális témaköre](https://github.com/niklaci/NT-Syllabus/blob/master/NT-sillabusz.pdf)
+- [OKTV, NT Feladatok témakörökkel](https://docs.google.com/spreadsheets/d/1pbM7h1uyZjvHwRCUFjximu0HOMwjymR7vg-9ErWXnhg/edit#gid=0)
+- [Radnai László - Algoritmusok](https://docs.google.com/spreadsheets/u/0/d/11rxrE6mvNq-NfnbyX0-EGrF9vtyuSgEEBFMo1J3XM6U/htmlview)
+- nemes.inf.elte.hu
+- tehetseg.inf.elte.hu
+	- tehetseg.inf.elte.hu/szakkorefop2017/
+	- tehetseg.inf.elte.hu/szakkor/
+	- http://tehetseg.inf.elte.hu/valogatok/
+	- http://tehetseg.inf.elte.hu/ceoi/
+	- http://tehetseg.inf.elte.hu/ioi/
+	- http://tehetseg.inf.elte.hu/nemes/
+	- http://tehetseg.inf.elte.hu/nemes-online/
+- tamop412.elte.hu/tananyagok/algoritmusok
+- info.berzsenyi.hu/szakkoeroek/algoritmus-szakkoer
+- e-maxx.ru/algo/
+- https://github.com/radl97/algo-help
+- ntibi.web.elte.hu
+	> Programozás / elmélet
+- codeforces.com
+	- problem editorials
+- oktatas.hu
+	- régi feladatok, feladatok, feladat megoldások  
+
+# Feladatbankok
+- codeforces.com
+	- Profile > Change settings > Show tags for unsolved problems: false
+- mester.inf.elte.hu
+	- [Github version - 1:1 Linux](github.com/asztrikx/mester-linux)
+	- [Github version - 1:1 Windows](github.com/asztrikx/mester-windows)
+	- [Github version - Searchable](https://lezsakdomi.github.io/elte-mester-data)
+	- Teszt#: 7.1 jelentése: 7.feladat 1.sora
+	- Egy jó részeredményre is járhat pont
+	- Haladó > Mohó algoritmusok > 59. Konténer pakolás *** > minta.zip
+		- Implementációkkal van tele
+	- [Megoldások](https://github.com/lezsakdomi/mester)
+- urionlinejudge.com.br/judge/en/categories
+- ipsc.ksp.sk
+- wcipeg.com
+- spoj.com
+- uva.onlinejudge.org
+- https://ncpc.idi.ntnu.no/
+- njudge.hu
+	- Idei még fel nem rakott OKTV, Nemes fordulók lehetnek itt
+
+# Szakkörök
+- Fazekas szakkör
+	> Időpont választás szeptemberben szavazás alapján  
+	- szintek
+		- közép
+		- haladó
+	- kapcsolat
+		- 2 Facebook
+		- 1 Discord
+- [ELTE szakkör](http://tehetseg.inf.elte.hu/szakkorok.html)
+- [BME egyetemi verseny (ACM) felkészítő szakkör](http://cs.bme.hu/acm)
+
+# Tankönyvek
+- [Programozási ismeretek versenyzőknek](http://www.zmgzeg.sulinet.hu/programozas/#progism3)
+
+# Tábor
+- [ELTE](https://agondolkodasorome.hu/2021/04/30/felhivas-progtabor-8-9-osztalyos-diakoknak/)
+- [?](https://weiszago.wixsite.com/programozas)
