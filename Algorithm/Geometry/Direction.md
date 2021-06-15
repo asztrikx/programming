@@ -6,9 +6,9 @@ int direction(point base, point from, point to) {
 	to = to - base;
 	ll area = from.y * to.x - from.x * to.y;
 	if (area > 0) {
-		return 1; //balra
+		return 1; //jobbra
 	} else if (area < 0) {
-		return -1; //jobbra
+		return -1; //balra
 	}
 	return 0;
 }
