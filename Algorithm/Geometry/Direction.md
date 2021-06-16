@@ -13,3 +13,4 @@ int direction(point base, point from, point to) {
 	return 0;
 }
 ```
+[Playground](https://www.geogebra.org/m/dygr7xjt)
