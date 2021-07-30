@@ -8,6 +8,9 @@
 - geeksforgeeks.org
 - infoc.eet.bme.hu/
 
+# Kurzusok
+- zerotohero.hu (szezonálisan, ált. nyáron?)
+
 # Feladatbankok
 - https://projecteuler.net/
 
