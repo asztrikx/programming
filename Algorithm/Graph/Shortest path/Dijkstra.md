@@ -35,8 +35,8 @@ vector<int> parentS;
 void dijkstra(int start) {
 	timeS.assign(g.size(), -1);
 	parentS.assign(g.size(), -1);
+	
 	priority_queue<edge> pq;
-
 	pq.push({ -1, start, 0 });
 	while (!pq.empty()) {
 		edge e = pq.top(); pq.pop();
@@ -46,9 +46,9 @@ void dijkstra(int start) {
 		timeS[e.end] = e.weight;
 		parentS[e.end] = e.start;
 
-		for (auto ee : g[e.end]) {
-			if (timeS[ee.end] == -1) {
-				pq.push({ e.end , ee.end , timeS[e.end] + ee.weight });
+		for (auto eChild : g[e.end]) {
+			if (timeS[eChild.end] == -1) {
+				pq.push({ e.end , eChild.end , timeS[e.end] + eChild.weight });
 			}
 		}
 	}
