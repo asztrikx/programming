@@ -1,7 +1,7 @@
 # Code
 ```c++
-bool between(point start, point end, point p) {
-	if (direction(start, end, p) != 0) {
+bool between(Point start, Point end, Point p) {
+	if (direction(start, end, p) != STRAIGHT) {
 		return false;
 	}
 	return (

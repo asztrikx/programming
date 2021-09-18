@@ -1,7 +1,7 @@
 # Any convex polygon e.g.: Triangle
 ## Code
 ```c++
-bool insideTriangle(point a, point b, point c, point p) {
+bool insideTriangle(Point a, Point b, Point c, Point p) {
 	if (p == a || p == b || p == c) {
 		return true;
 	}
@@ -22,7 +22,7 @@ bool insideTriangle(point a, point b, point c, point p) {
 > Points should be sorted [R] TODO
 ## Code
 ```c++
-vector<point> pointS /*= {
+vector<Point> pointS /*= {
 	{ 2, 0 },
 	{ 1, 0 },
 	{ 0, 1 },
@@ -31,7 +31,7 @@ vector<point> pointS /*= {
 	{ 2, 5 },
 	{ 4, 5 },
 }*/;
-bool inside(point p) {
+bool inside(Point p) {
 	ll maxxY = -1;
 	for (auto item : pointS) {
 		maxxY = max(maxxY, item.y);

@@ -1,13 +1,13 @@
 # Point
 ## Code
 ```c++
-struct point {
+struct Point {
 	ll y, x;
 	
-	point operator-(point other) {
+	Point operator-(Point other) {
 		return { y - other.y, x - other.x };
 	}
-	bool operator==(point other) {
+	bool operator==(Point other) {
 		return y == other.y && x == other.x;
 	}
 };
@@ -16,7 +16,7 @@ struct point {
 # Line
 ## Code
 ```c++
-struct line {
-	point start, end;
+struct Line {
+	Point start, end;
 };
 ```

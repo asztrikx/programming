@@ -1,16 +1,25 @@
 # Code
 ```c++
 // base->from->to
-int direction(point base, point from, point to) {
+enum Direction {
+	RIGHT = 1,
+	LEFT = -1,
+	STRAIGHT = 0,
+};
+
+
+// base->from->to
+Direction direction(Point base, Point from, Point to) {
 	from = from - base;
 	to = to - base;
 	ll area = from.y * to.x - from.x * to.y;
 	if (area > 0) {
-		return 1; //jobbra
+		return RIGHT;
 	} else if (area < 0) {
-		return -1; //balra
+		return LEFT;
+	} else {
+		return STRAIGHT;
 	}
-	return 0;
 }
 ```
 [Playground](https://www.geogebra.org/m/dygr7xjt)

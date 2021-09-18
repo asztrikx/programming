@@ -1,7 +1,7 @@
 # Weak
 ## Code
 ```c++
-vector<point> convexhull;
+vector<Point> convexhull;
 void convexhullBuild() {
 	if (pointS.size() <= 2) {
 		convexhull = pointS;
@@ -20,17 +20,17 @@ void convexhullBuild() {
 	}
 	swap(*pointS.begin(), *itMin);
 
-	sort(pointS.begin() + 1, pointS.end(), [](point a, point b) {
+	sort(pointS.begin() + 1, pointS.end(), [](Point a, Point b) {
 		int d = direction(pointS[0], a, b);
-		if (d == 0) {
+		if (d == STRAIGHT) {
 			return between(pointS[0], b, a);
 		}
-		return d == -1;
+		return d == LEFT;
 	});
 
 	//Reverse all points which are in one line with last point
 	int index = pointS.size() - 2;
-	while (direction(pointS[0], pointS[pointS.size() - 1], pointS[index]) == 0) {
+	while (direction(pointS[0], pointS[pointS.size() - 1], pointS[index]) == STRAIGHT) {
 		--index;
 	}
 	++index;
@@ -42,7 +42,7 @@ void convexhullBuild() {
 	st.push(2);
 	for (int i = 3; i < pointS.size(); i++) {
 		int last = st.top(); st.pop();
-		while (direction(pointS[st.top()], pointS[last], pointS[i]) == 1) {
+		while (direction(pointS[st.top()], pointS[last], pointS[i]) == RIGHT) {
 			last = st.top(); st.pop();
 		}
 		st.push(last);
