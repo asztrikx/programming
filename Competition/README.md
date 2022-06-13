@@ -38,7 +38,7 @@
 	- http://tehetseg.inf.elte.hu/nemes-online/
 - tamop412.elte.hu/tananyagok/algoritmusok
 - info.berzsenyi.hu/szakkoeroek/algoritmus-szakkoer
-- e-maxx.ru/algo/
+- https://cp-algorithms.com/
 - https://github.com/radl97/algo-help
 - ntibi.web.elte.hu
 	> Programozás / elmélet
